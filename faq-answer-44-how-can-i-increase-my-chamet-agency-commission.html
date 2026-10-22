@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How can I increase my Chamet agency commission? | Chamet FAQ</title>
+  <meta name="description" content="Hosts can improve earnings by staying active consistently, using a real and attractive cover photo, maintaining good lighting, showcasing useful talents,...">
+  <link rel="stylesheet" href="global.css">
+</head>
+<body>
+  <div id="header-placeholder"></div>
+  <main id="main-content">
+    <section class="faq-topic-hero faq-question-hero">
+      <div class="container faq-topic-hero-content">
+        <a class="faq-back-link" href="/faq-agency"><span aria-hidden="true">&larr;</span> Chamet Agency</a>
+        <p class="faq-topic-eyebrow">CHAMET AGENCY</p>
+        <h1 class="faq-topic-title">How can I increase my Chamet agency commission?</h1>
+      </div>
+    </section>
+    <section class="section section--light faq-detail-section">
+      <div class="container">
+        <article class="faq-full-answer">
+          <p class="faq-full-answer-label">DETAILED ANSWER</p>
+          <p class="faq-full-answer-copy">Answer: Hosts can improve earnings by staying active consistently, using a real and attractive cover photo, maintaining good lighting, showcasing useful talents, keeping a high call rate, and following platform rules. Agents can grow and manage their team, track host and sub-agent performance, invite new team members, and use the Agency dashboard to monitor commission sources.</p>
+          <a class="faq-topic-return" href="/faq-agency">Back to Chamet Agency</a>
+        </article>
+        <section class="faq-related-section" aria-labelledby="faq-related-title-44">
+          <div class="faq-related-heading">
+            <p class="faq-hub-eyebrow">MORE TO EXPLORE</p>
+            <h2 class="faq-hub-title" id="faq-related-title-44">Related questions</h2>
+          </div>
+          <div class="faq-related-grid">
+          <a class="faq-related-card" href="/faq-answer-45-how-do-i-use-the-chamet-agency-dashboard">
+            <span class="faq-related-card-label">Chamet Agency</span>
+            <span class="faq-related-card-title">How do I use the Chamet Agency Dashboard?</span>
+            <span class="faq-related-card-preview">The Agency dashboard lets you track 1v1 chat duration and host activity, get invitation links, review invited...</span>
+            <span class="faq-related-card-action">Read answer <span aria-hidden="true">&rarr;</span></span>
+          </a>
+          <a class="faq-related-card" href="/faq-answer-46-how-do-i-invite-new-users-to-my-chamet-agency">
+            <span class="faq-related-card-label">Chamet Agency</span>
+            <span class="faq-related-card-title">How do I invite new users to my Chamet agency?</span>
+            <span class="faq-related-card-preview">Log in to the Agency dashboard, copy your agency invitation link, and send it to the person you want to invite....</span>
+            <span class="faq-related-card-action">Read answer <span aria-hidden="true">&rarr;</span></span>
+          </a>
+          <a class="faq-related-card" href="/faq-answer-47-how-do-i-invite-a-sub-agency-to-join-my-team">
+            <span class="faq-related-card-label">Chamet Agency</span>
+            <span class="faq-related-card-title">How do I invite a sub-agency to join my team?</span>
+            <span class="faq-related-card-preview">Use the agency invitation link found in the Agency dashboard under the option for inviting Chamet agents, then...</span>
+            <span class="faq-related-card-action">Read answer <span aria-hidden="true">&rarr;</span></span>
+          </a>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+  <div id="footer-placeholder"></div>
+  <script>
+    (function() {
+      function loadPreviewComponent(placeholderId, filePath) {
+        const placeholder = document.getElementById(placeholderId);
+        if (!placeholder) return;
+        fetch(filePath).then(function(response) {
+          if (!response.ok) throw new Error('Failed to load ' + filePath);
+          return response.text();
+        }).then(function(markup) {
+          const parsed = new DOMParser().parseFromString(markup, 'text/html');
+          const component = parsed.querySelector(placeholderId === 'header-placeholder' ? 'header' : 'footer');
+          if (component) placeholder.appendChild(component);
+          parsed.querySelectorAll('script').forEach(function(oldScript) {
+            const newScript = document.createElement('script');
+            Array.from(oldScript.attributes).forEach(function(attribute) {
+              newScript.setAttribute(attribute.name, attribute.value);
+            });
+            newScript.textContent = oldScript.textContent;
+            document.body.appendChild(newScript);
+          });
+        }).catch(function(error) {
+          console.warn('Local preview loader notice:', error.message);
+        });
+      }
+      loadPreviewComponent('header-placeholder', 'header.html');
+      loadPreviewComponent('footer-placeholder', 'footer.html');
+    })();
+  </script>
+</body>
+</html>

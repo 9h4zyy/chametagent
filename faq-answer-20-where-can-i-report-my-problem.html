@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Where can I report my problem? | Chamet FAQ</title>
+  <meta name="description" content="Use the in-app reporting options for safety or user-related issues in live rooms and private video chats. For account, OTP, recharge, or other technical...">
+  <link rel="stylesheet" href="global.css">
+</head>
+<body>
+  <div id="header-placeholder"></div>
+  <main id="main-content">
+    <section class="faq-topic-hero faq-question-hero">
+      <div class="container faq-topic-hero-content">
+        <a class="faq-back-link" href="/faq-live-rules"><span aria-hidden="true">&larr;</span> Chamet Live Rules &amp; Content</a>
+        <p class="faq-topic-eyebrow">CHAMET LIVE RULES &AMP; CONTENT</p>
+        <h1 class="faq-topic-title">Where can I report my problem?</h1>
+      </div>
+    </section>
+    <section class="section section--light faq-detail-section">
+      <div class="container">
+        <article class="faq-full-answer">
+          <p class="faq-full-answer-label">DETAILED ANSWER</p>
+          <p class="faq-full-answer-copy">Answer: Use the in-app reporting options for safety or user-related issues in live rooms and private video chats. For account, OTP, recharge, or other technical problems, contact customer support through Chamet’s official platform.</p>
+          <a class="faq-topic-return" href="/faq-live-rules">Back to Chamet Live Rules &amp; Content</a>
+        </article>
+        <section class="faq-related-section" aria-labelledby="faq-related-title-20">
+          <div class="faq-related-heading">
+            <p class="faq-hub-eyebrow">MORE TO EXPLORE</p>
+            <h2 class="faq-hub-title" id="faq-related-title-20">Related questions</h2>
+          </div>
+          <div class="faq-related-grid">
+          <a class="faq-related-card" href="/faq-answer-21-what-are-the-livestreaming-rules-on-chamet">
+            <span class="faq-related-card-label">Chamet Live Rules &amp; Content</span>
+            <span class="faq-related-card-title">What are the livestreaming rules on Chamet?</span>
+            <span class="faq-related-card-preview">Livestreams must not include nudity, underwear or sheer clothing, toplessness, sexual gestures, inappropriate...</span>
+            <span class="faq-related-card-action">Read answer <span aria-hidden="true">&rarr;</span></span>
+          </a>
+          <a class="faq-related-card" href="/faq-answer-22-what-if-i-see-someone-violate-the-rules">
+            <span class="faq-related-card-label">Chamet Live Rules &amp; Content</span>
+            <span class="faq-related-card-title">What if I see someone violate the rules?</span>
+            <span class="faq-related-card-preview">Report the user through the in-app reporting tools. In some situations, you can tap the person’s avatar and use...</span>
+            <span class="faq-related-card-action">Read answer <span aria-hidden="true">&rarr;</span></span>
+          </a>
+          <a class="faq-related-card" href="/faq-answer-23-how-do-i-block-a-user-on-chamet">
+            <span class="faq-related-card-label">Chamet Live Rules &amp; Content</span>
+            <span class="faq-related-card-title">How do I block a user on Chamet?</span>
+            <span class="faq-related-card-preview">Use Chamet’s Block feature on the user you no longer want to interact with. Blocking prevents that person from...</span>
+            <span class="faq-related-card-action">Read answer <span aria-hidden="true">&rarr;</span></span>
+          </a>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+  <div id="footer-placeholder"></div>
+  <script>
+    (function() {
+      function loadPreviewComponent(placeholderId, filePath) {
+        const placeholder = document.getElementById(placeholderId);
+        if (!placeholder) return;
+        fetch(filePath).then(function(response) {
+          if (!response.ok) throw new Error('Failed to load ' + filePath);
+          return response.text();
+        }).then(function(markup) {
+          const parsed = new DOMParser().parseFromString(markup, 'text/html');
+          const component = parsed.querySelector(placeholderId === 'header-placeholder' ? 'header' : 'footer');
+          if (component) placeholder.appendChild(component);
+          parsed.querySelectorAll('script').forEach(function(oldScript) {
+            const newScript = document.createElement('script');
+            Array.from(oldScript.attributes).forEach(function(attribute) {
+              newScript.setAttribute(attribute.name, attribute.value);
+            });
+            newScript.textContent = oldScript.textContent;
+            document.body.appendChild(newScript);
+          });
+        }).catch(function(error) {
+          console.warn('Local preview loader notice:', error.message);
+        });
+      }
+      loadPreviewComponent('header-placeholder', 'header.html');
+      loadPreviewComponent('footer-placeholder', 'footer.html');
+    })();
+  </script>
+</body>
+</html>

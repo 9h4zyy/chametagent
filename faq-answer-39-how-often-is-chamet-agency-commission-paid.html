@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How often is Chamet agency commission paid? | Chamet FAQ</title>
+  <meta name="description" content="Host earnings are processed weekly, typically every Thursday. Agency commission is transferred automatically to a bound Metwallet account once the...">
+  <link rel="stylesheet" href="global.css">
+</head>
+<body>
+  <div id="header-placeholder"></div>
+  <main id="main-content">
+    <section class="faq-topic-hero faq-question-hero">
+      <div class="container faq-topic-hero-content">
+        <a class="faq-back-link" href="/faq-agency"><span aria-hidden="true">&larr;</span> Chamet Agency</a>
+        <p class="faq-topic-eyebrow">CHAMET AGENCY</p>
+        <h1 class="faq-topic-title">How often is Chamet agency commission paid?</h1>
+      </div>
+    </section>
+    <section class="section section--light faq-detail-section">
+      <div class="container">
+        <article class="faq-full-answer">
+          <p class="faq-full-answer-label">DETAILED ANSWER</p>
+          <p class="faq-full-answer-copy">Answer: Host earnings are processed weekly, typically every Thursday. Agency commission is transferred automatically to a bound Metwallet account once the accumulated commission reaches $10.</p>
+          <a class="faq-topic-return" href="/faq-agency">Back to Chamet Agency</a>
+        </article>
+        <section class="faq-related-section" aria-labelledby="faq-related-title-39">
+          <div class="faq-related-heading">
+            <p class="faq-hub-eyebrow">MORE TO EXPLORE</p>
+            <h2 class="faq-hub-title" id="faq-related-title-39">Related questions</h2>
+          </div>
+          <div class="faq-related-grid">
+          <a class="faq-related-card" href="/faq-answer-40-how-can-i-improve-my-chamet-agency-performance">
+            <span class="faq-related-card-label">Chamet Agency</span>
+            <span class="faq-related-card-title">How can I improve my Chamet agency performance?</span>
+            <span class="faq-related-card-preview">Improve how you engage with users, use an attractive and authentic cover photo, stream consistently, use good...</span>
+            <span class="faq-related-card-action">Read answer <span aria-hidden="true">&rarr;</span></span>
+          </a>
+          <a class="faq-related-card" href="/faq-answer-41-what-are-the-benefits-of-becoming-a-chamet-agency">
+            <span class="faq-related-card-label">Chamet Agency</span>
+            <span class="faq-related-card-title">What are the benefits of becoming a Chamet agency?</span>
+            <span class="faq-related-card-preview">Hosting 1v1 live chats can help you build deeper connections with users and receive higher tips. Hosts can also...</span>
+            <span class="faq-related-card-action">Read answer <span aria-hidden="true">&rarr;</span></span>
+          </a>
+          <a class="faq-related-card" href="/faq-answer-42-what-are-the-benefits-of-being-an-agent">
+            <span class="faq-related-card-label">Chamet Agency</span>
+            <span class="faq-related-card-title">What are the benefits of being an agent?</span>
+            <span class="faq-related-card-preview">Agents can build a team, invite hosts and sub-agents, track host activity and chat duration, review commission...</span>
+            <span class="faq-related-card-action">Read answer <span aria-hidden="true">&rarr;</span></span>
+          </a>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+  <div id="footer-placeholder"></div>
+  <script>
+    (function() {
+      function loadPreviewComponent(placeholderId, filePath) {
+        const placeholder = document.getElementById(placeholderId);
+        if (!placeholder) return;
+        fetch(filePath).then(function(response) {
+          if (!response.ok) throw new Error('Failed to load ' + filePath);
+          return response.text();
+        }).then(function(markup) {
+          const parsed = new DOMParser().parseFromString(markup, 'text/html');
+          const component = parsed.querySelector(placeholderId === 'header-placeholder' ? 'header' : 'footer');
+          if (component) placeholder.appendChild(component);
+          parsed.querySelectorAll('script').forEach(function(oldScript) {
+            const newScript = document.createElement('script');
+            Array.from(oldScript.attributes).forEach(function(attribute) {
+              newScript.setAttribute(attribute.name, attribute.value);
+            });
+            newScript.textContent = oldScript.textContent;
+            document.body.appendChild(newScript);
+          });
+        }).catch(function(error) {
+          console.warn('Local preview loader notice:', error.message);
+        });
+      }
+      loadPreviewComponent('header-placeholder', 'header.html');
+      loadPreviewComponent('footer-placeholder', 'footer.html');
+    })();
+  </script>
+</body>
+</html>

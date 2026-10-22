@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How do I install Chamet on iOS? | Chamet FAQ</title>
+  <meta name="description" content="For iOS, visit the official Chamet website and follow the available download instructions for the latest version of the">
+  <link rel="stylesheet" href="global.css">
+</head>
+<body>
+  <div id="header-placeholder"></div>
+  <main id="main-content">
+    <section class="faq-topic-hero faq-question-hero">
+      <div class="container faq-topic-hero-content">
+        <a class="faq-back-link" href="/faq-app-account"><span aria-hidden="true">&larr;</span> Chamet App &amp; Account</a>
+        <p class="faq-topic-eyebrow">CHAMET APP &AMP; ACCOUNT</p>
+        <h1 class="faq-topic-title">How do I install Chamet on iOS?</h1>
+      </div>
+    </section>
+    <section class="section section--light faq-detail-section">
+      <div class="container">
+        <article class="faq-full-answer">
+          <p class="faq-full-answer-label">DETAILED ANSWER</p>
+          <p class="faq-full-answer-copy">Answer: For iOS, visit the official Chamet website and follow the available download instructions for the latest version of the app.</p>
+          <a class="faq-topic-return" href="/faq-app-account">Back to Chamet App &amp; Account</a>
+        </article>
+        <section class="faq-related-section" aria-labelledby="faq-related-title-10">
+          <div class="faq-related-heading">
+            <p class="faq-hub-eyebrow">MORE TO EXPLORE</p>
+            <h2 class="faq-hub-title" id="faq-related-title-10">Related questions</h2>
+          </div>
+          <div class="faq-related-grid">
+          <a class="faq-related-card" href="/faq-answer-11-where-can-i-download-the-chamet-app-for-ios">
+            <span class="faq-related-card-label">Chamet App &amp; Account</span>
+            <span class="faq-related-card-title">Where can I download the Chamet app for iOS?</span>
+            <span class="faq-related-card-preview">Visit this page to get the latest iOS version of the</span>
+            <span class="faq-related-card-action">Read answer <span aria-hidden="true">&rarr;</span></span>
+          </a>
+          <a class="faq-related-card" href="/faq-answer-12-how-do-i-register-on-chamet">
+            <span class="faq-related-card-label">Chamet App &amp; Account</span>
+            <span class="faq-related-card-title">How do I register on Chamet?</span>
+            <span class="faq-related-card-preview">You can create a Chamet account using Google, Facebook, or your phone number. After registration and verification,...</span>
+            <span class="faq-related-card-action">Read answer <span aria-hidden="true">&rarr;</span></span>
+          </a>
+          <a class="faq-related-card" href="/faq-answer-13-what-information-do-i-need-to-register-on-chamet">
+            <span class="faq-related-card-label">Chamet App &amp; Account</span>
+            <span class="faq-related-card-title">What information do I need to register on Chamet?</span>
+            <span class="faq-related-card-preview">You can register using Google, Facebook, or a phone number. Account verification may also be required, including...</span>
+            <span class="faq-related-card-action">Read answer <span aria-hidden="true">&rarr;</span></span>
+          </a>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+  <div id="footer-placeholder"></div>
+  <script>
+    (function() {
+      function loadPreviewComponent(placeholderId, filePath) {
+        const placeholder = document.getElementById(placeholderId);
+        if (!placeholder) return;
+        fetch(filePath).then(function(response) {
+          if (!response.ok) throw new Error('Failed to load ' + filePath);
+          return response.text();
+        }).then(function(markup) {
+          const parsed = new DOMParser().parseFromString(markup, 'text/html');
+          const component = parsed.querySelector(placeholderId === 'header-placeholder' ? 'header' : 'footer');
+          if (component) placeholder.appendChild(component);
+          parsed.querySelectorAll('script').forEach(function(oldScript) {
+            const newScript = document.createElement('script');
+            Array.from(oldScript.attributes).forEach(function(attribute) {
+              newScript.setAttribute(attribute.name, attribute.value);
+            });
+            newScript.textContent = oldScript.textContent;
+            document.body.appendChild(newScript);
+          });
+        }).catch(function(error) {
+          console.warn('Local preview loader notice:', error.message);
+        });
+      }
+      loadPreviewComponent('header-placeholder', 'header.html');
+      loadPreviewComponent('footer-placeholder', 'footer.html');
+    })();
+  </script>
+</body>
+</html>

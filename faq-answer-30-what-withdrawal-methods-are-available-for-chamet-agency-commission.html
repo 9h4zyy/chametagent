@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What withdrawal methods are available for Chamet agency commission? | Chamet FAQ</title>
+  <meta name="description" content="Withdrawal methods vary by country, but in general MetWallet supports bank transfer, digital wallet, and cryptocurrencies. For the complete information,...">
+  <link rel="stylesheet" href="global.css">
+</head>
+<body>
+  <div id="header-placeholder"></div>
+  <main id="main-content">
+    <section class="faq-topic-hero faq-question-hero">
+      <div class="container faq-topic-hero-content">
+        <a class="faq-back-link" href="/faq-withdrawal"><span aria-hidden="true">&larr;</span> Chamet Agency Withdrawal Questions &amp; Help</a>
+        <p class="faq-topic-eyebrow">CHAMET AGENCY WITHDRAWAL QUESTIONS &AMP; HELP</p>
+        <h1 class="faq-topic-title">What withdrawal methods are available for Chamet agency commission?</h1>
+      </div>
+    </section>
+    <section class="section section--light faq-detail-section">
+      <div class="container">
+        <article class="faq-full-answer">
+          <p class="faq-full-answer-label">DETAILED ANSWER</p>
+          <p class="faq-full-answer-copy">Answer: Withdrawal methods vary by country, but in general MetWallet supports bank transfer, digital wallet, and cryptocurrencies. For the complete information, please visit your own MetWallet account.</p>
+          <a class="faq-topic-return" href="/faq-withdrawal">Back to Chamet Agency Withdrawal Questions &amp; Help</a>
+        </article>
+        <section class="faq-related-section" aria-labelledby="faq-related-title-30">
+          <div class="faq-related-heading">
+            <p class="faq-hub-eyebrow">MORE TO EXPLORE</p>
+            <h2 class="faq-hub-title" id="faq-related-title-30">Related questions</h2>
+          </div>
+          <div class="faq-related-grid">
+          <a class="faq-related-card" href="/faq-answer-31-how-do-i-recharge-my-diamonds-on-chamet">
+            <span class="faq-related-card-label">Chamet Agency Withdrawal Questions &amp; Help</span>
+            <span class="faq-related-card-title">How do I recharge my Diamonds on Chamet?</span>
+            <span class="faq-related-card-preview">Open the Wallet or recharge area and follow the available payment instructions. You can use official Chamet...</span>
+            <span class="faq-related-card-action">Read answer <span aria-hidden="true">&rarr;</span></span>
+          </a>
+          <a class="faq-related-card" href="/faq-answer-32-can-i-change-my-payment-currency">
+            <span class="faq-related-card-label">Chamet Agency Withdrawal Questions &amp; Help</span>
+            <span class="faq-related-card-title">Can I change my payment currency?</span>
+            <span class="faq-related-card-preview">For Google Play, change your country settings to match your billing preference. For other payment methods, the...</span>
+            <span class="faq-related-card-action">Read answer <span aria-hidden="true">&rarr;</span></span>
+          </a>
+          <a class="faq-related-card" href="/faq-answer-33-what-should-i-do-if-my-agency-commission-withdrawal-fails">
+            <span class="faq-related-card-label">Chamet Agency Withdrawal Questions &amp; Help</span>
+            <span class="faq-related-card-title">What should I do if my agency commission withdrawal fails?</span>
+            <span class="faq-related-card-preview">For agency commission and host earning, first make sure your Metwallet account is correctly bound and your unpaid...</span>
+            <span class="faq-related-card-action">Read answer <span aria-hidden="true">&rarr;</span></span>
+          </a>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+  <div id="footer-placeholder"></div>
+  <script>
+    (function() {
+      function loadPreviewComponent(placeholderId, filePath) {
+        const placeholder = document.getElementById(placeholderId);
+        if (!placeholder) return;
+        fetch(filePath).then(function(response) {
+          if (!response.ok) throw new Error('Failed to load ' + filePath);
+          return response.text();
+        }).then(function(markup) {
+          const parsed = new DOMParser().parseFromString(markup, 'text/html');
+          const component = parsed.querySelector(placeholderId === 'header-placeholder' ? 'header' : 'footer');
+          if (component) placeholder.appendChild(component);
+          parsed.querySelectorAll('script').forEach(function(oldScript) {
+            const newScript = document.createElement('script');
+            Array.from(oldScript.attributes).forEach(function(attribute) {
+              newScript.setAttribute(attribute.name, attribute.value);
+            });
+            newScript.textContent = oldScript.textContent;
+            document.body.appendChild(newScript);
+          });
+        }).catch(function(error) {
+          console.warn('Local preview loader notice:', error.message);
+        });
+      }
+      loadPreviewComponent('header-placeholder', 'header.html');
+      loadPreviewComponent('footer-placeholder', 'footer.html');
+    })();
+  </script>
+</body>
+</html>

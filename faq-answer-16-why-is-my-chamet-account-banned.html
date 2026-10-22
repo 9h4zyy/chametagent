@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why is my Chamet account banned? | Chamet FAQ</title>
+  <meta name="description" content="Accounts may be penalized or banned for breaking Chamet’s safety rules. Prohibited behavior includes nudity, improper clothing, sexual gestures, certain...">
+  <link rel="stylesheet" href="global.css">
+</head>
+<body>
+  <div id="header-placeholder"></div>
+  <main id="main-content">
+    <section class="faq-topic-hero faq-question-hero">
+      <div class="container faq-topic-hero-content">
+        <a class="faq-back-link" href="/faq-app-account"><span aria-hidden="true">&larr;</span> Chamet App &amp; Account</a>
+        <p class="faq-topic-eyebrow">CHAMET APP &AMP; ACCOUNT</p>
+        <h1 class="faq-topic-title">Why is my Chamet account banned?</h1>
+      </div>
+    </section>
+    <section class="section section--light faq-detail-section">
+      <div class="container">
+        <article class="faq-full-answer">
+          <p class="faq-full-answer-label">DETAILED ANSWER</p>
+          <p class="faq-full-answer-copy">Answer: Accounts may be penalized or banned for breaking Chamet’s safety rules. Prohibited behavior includes nudity, improper clothing, sexual gestures, certain inappropriate postures, and minors appearing on camera. Repeated or serious violations can lead to stronger penalties. If you believe a punishment was incorrect, use the complaint or appeal function.</p>
+          <a class="faq-topic-return" href="/faq-app-account">Back to Chamet App &amp; Account</a>
+        </article>
+        <section class="faq-related-section" aria-labelledby="faq-related-title-16">
+          <div class="faq-related-heading">
+            <p class="faq-hub-eyebrow">MORE TO EXPLORE</p>
+            <h2 class="faq-hub-title" id="faq-related-title-16">Related questions</h2>
+          </div>
+          <div class="faq-related-grid">
+          <a class="faq-related-card" href="/faq-answer-17-can-i-bind-my-old-phone-number-to-a-new-chamet-id">
+            <span class="faq-related-card-label">Chamet App &amp; Account</span>
+            <span class="faq-related-card-title">Can I bind my old phone number to a new Chamet ID?</span>
+            <span class="faq-related-card-preview">No. If a phone number has already been linked to a Chamet account, it cannot be linked to a new account even after...</span>
+            <span class="faq-related-card-action">Read answer <span aria-hidden="true">&rarr;</span></span>
+          </a>
+          <a class="faq-related-card" href="/faq-answer-18-can-i-change-my-country-or-region-in-chamet">
+            <span class="faq-related-card-label">Chamet App &amp; Account</span>
+            <span class="faq-related-card-title">Can I change my country or region in Chamet?</span>
+            <span class="faq-related-card-preview">No. Your country or region is determined by your mobile IP location and the country linked to your phone number,...</span>
+            <span class="faq-related-card-action">Read answer <span aria-hidden="true">&rarr;</span></span>
+          </a>
+          <a class="faq-related-card" href="/faq-answer-19-why-cant-i-pass-chamet-face-verification">
+            <span class="faq-related-card-label">Chamet App &amp; Account</span>
+            <span class="faq-related-card-title">Why can’t I pass Chamet face verification?</span>
+            <span class="faq-related-card-preview">Common reasons include trying to verify more than one account with the same face, poor lighting, a covered face,...</span>
+            <span class="faq-related-card-action">Read answer <span aria-hidden="true">&rarr;</span></span>
+          </a>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+  <div id="footer-placeholder"></div>
+  <script>
+    (function() {
+      function loadPreviewComponent(placeholderId, filePath) {
+        const placeholder = document.getElementById(placeholderId);
+        if (!placeholder) return;
+        fetch(filePath).then(function(response) {
+          if (!response.ok) throw new Error('Failed to load ' + filePath);
+          return response.text();
+        }).then(function(markup) {
+          const parsed = new DOMParser().parseFromString(markup, 'text/html');
+          const component = parsed.querySelector(placeholderId === 'header-placeholder' ? 'header' : 'footer');
+          if (component) placeholder.appendChild(component);
+          parsed.querySelectorAll('script').forEach(function(oldScript) {
+            const newScript = document.createElement('script');
+            Array.from(oldScript.attributes).forEach(function(attribute) {
+              newScript.setAttribute(attribute.name, attribute.value);
+            });
+            newScript.textContent = oldScript.textContent;
+            document.body.appendChild(newScript);
+          });
+        }).catch(function(error) {
+          console.warn('Local preview loader notice:', error.message);
+        });
+      }
+      loadPreviewComponent('header-placeholder', 'header.html');
+      loadPreviewComponent('footer-placeholder', 'footer.html');
+    })();
+  </script>
+</body>
+</html>

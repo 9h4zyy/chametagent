@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What is the minimum agency commission required before transfer? | Chamet FAQ</title>
+  <meta name="description" content="Your accumulated agency commission must reach $10 before it is sent. If the unpaid amount is below $10, it will remain pending until you reach the">
+  <link rel="stylesheet" href="global.css">
+</head>
+<body>
+  <div id="header-placeholder"></div>
+  <main id="main-content">
+    <section class="faq-topic-hero faq-question-hero">
+      <div class="container faq-topic-hero-content">
+        <a class="faq-back-link" href="/faq-withdrawal"><span aria-hidden="true">&larr;</span> Chamet Agency Withdrawal Questions &amp; Help</a>
+        <p class="faq-topic-eyebrow">CHAMET AGENCY WITHDRAWAL QUESTIONS &AMP; HELP</p>
+        <h1 class="faq-topic-title">What is the minimum agency commission required before transfer?</h1>
+      </div>
+    </section>
+    <section class="section section--light faq-detail-section">
+      <div class="container">
+        <article class="faq-full-answer">
+          <p class="faq-full-answer-label">DETAILED ANSWER</p>
+          <p class="faq-full-answer-copy">Answer: Your accumulated agency commission must reach $10 before it is sent. If the unpaid amount is below $10, it will remain pending until you reach the minimum.</p>
+          <a class="faq-topic-return" href="/faq-withdrawal">Back to Chamet Agency Withdrawal Questions &amp; Help</a>
+        </article>
+        <section class="faq-related-section" aria-labelledby="faq-related-title-34">
+          <div class="faq-related-heading">
+            <p class="faq-hub-eyebrow">MORE TO EXPLORE</p>
+            <h2 class="faq-hub-title" id="faq-related-title-34">Related questions</h2>
+          </div>
+          <div class="faq-related-grid">
+          <a class="faq-related-card" href="/faq-answer-28-how-can-i-withdraw-my-chamet-agency-commission">
+            <span class="faq-related-card-label">Chamet Agency Withdrawal Questions &amp; Help</span>
+            <span class="faq-related-card-title">How can I withdraw my Chamet agency commission?</span>
+            <span class="faq-related-card-preview">For agency commission, bind a Metwallet account in the Agency dashboard or Chamet app. Once your accumulated...</span>
+            <span class="faq-related-card-action">Read answer <span aria-hidden="true">&rarr;</span></span>
+          </a>
+          <a class="faq-related-card" href="/faq-answer-29-is-my-withdrawal-account-information-safe">
+            <span class="faq-related-card-label">Chamet Agency Withdrawal Questions &amp; Help</span>
+            <span class="faq-related-card-title">Is my withdrawal account information safe?</span>
+            <span class="faq-related-card-preview">Chamet uses compliant payment gateways and encrypted transactions for recharge payments. For account safety, use...</span>
+            <span class="faq-related-card-action">Read answer <span aria-hidden="true">&rarr;</span></span>
+          </a>
+          <a class="faq-related-card" href="/faq-answer-30-what-withdrawal-methods-are-available-for-chamet-agency-commission">
+            <span class="faq-related-card-label">Chamet Agency Withdrawal Questions &amp; Help</span>
+            <span class="faq-related-card-title">What withdrawal methods are available for Chamet agency commission?</span>
+            <span class="faq-related-card-preview">Withdrawal methods vary by country, but in general MetWallet supports bank transfer, digital wallet, and...</span>
+            <span class="faq-related-card-action">Read answer <span aria-hidden="true">&rarr;</span></span>
+          </a>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+  <div id="footer-placeholder"></div>
+  <script>
+    (function() {
+      function loadPreviewComponent(placeholderId, filePath) {
+        const placeholder = document.getElementById(placeholderId);
+        if (!placeholder) return;
+        fetch(filePath).then(function(response) {
+          if (!response.ok) throw new Error('Failed to load ' + filePath);
+          return response.text();
+        }).then(function(markup) {
+          const parsed = new DOMParser().parseFromString(markup, 'text/html');
+          const component = parsed.querySelector(placeholderId === 'header-placeholder' ? 'header' : 'footer');
+          if (component) placeholder.appendChild(component);
+          parsed.querySelectorAll('script').forEach(function(oldScript) {
+            const newScript = document.createElement('script');
+            Array.from(oldScript.attributes).forEach(function(attribute) {
+              newScript.setAttribute(attribute.name, attribute.value);
+            });
+            newScript.textContent = oldScript.textContent;
+            document.body.appendChild(newScript);
+          });
+        }).catch(function(error) {
+          console.warn('Local preview loader notice:', error.message);
+        });
+      }
+      loadPreviewComponent('header-placeholder', 'header.html');
+      loadPreviewComponent('footer-placeholder', 'footer.html');
+    })();
+  </script>
+</body>
+</html>
