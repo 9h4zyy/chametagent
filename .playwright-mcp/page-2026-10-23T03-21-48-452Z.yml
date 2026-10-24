@@ -1,0 +1,140 @@
+- generic [active] [ref=f20e1]:
+  - generic:
+    - banner:
+      - generic [ref=f20e2]:
+        - link "Chamet Agency Home" [ref=f20e3] [cursor=pointer]:
+          - /url: /
+          - img "Chamet Agency Logo" [ref=f20e4]
+          - generic [ref=f20e5]: Chamet
+        - navigation "Main Navigation" [ref=f20e6]:
+          - link "Home" [ref=f20e7] [cursor=pointer]:
+            - /url: /
+          - link "Host" [ref=f20e8] [cursor=pointer]:
+            - /url: /host
+          - link "Agent" [ref=f20e9] [cursor=pointer]:
+            - /url: /agent
+          - link "FAQ" [ref=f20e10] [cursor=pointer]:
+            - /url: /faq
+        - generic [ref=f20e11]:
+          - link "Join Host" [ref=f20e12] [cursor=pointer]:
+            - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+          - link "Start Agency" [ref=f20e14] [cursor=pointer]:
+            - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+  - main [ref=f20e16]:
+    - generic [ref=f20e18]:
+      - link "FAQ" [ref=f20e19] [cursor=pointer]:
+        - /url: /faq
+        - generic [aria-hidden] [ref=f20e20]: ←
+        - text: FAQ
+      - paragraph [ref=f20e21]: SUPPORT & KNOWLEDGE HUB
+      - heading "General Questions" [level=1] [ref=f20e22]
+      - paragraph [ref=f20e23]: Answers to questions regarding Chamet platform in general
+    - region [ref=f20e24]:
+      - generic [ref=f20e25]:
+        - generic [ref=f20e26]:
+          - generic [ref=f20e27]:
+            - heading "General Questions" [level=2] [ref=f20e28]
+            - paragraph [ref=f20e29]: Answers to questions regarding Chamet platform in general
+          - generic [ref=f20e30]:
+            - generic [ref=f20e31]:
+              - button "1. What is Chamet?" [ref=f20e32] [cursor=pointer]
+              - generic [ref=f20e37]:
+                - paragraph [ref=f20e38]: Chamet is a social video-chat platform built around livestreaming and ...
+                - link "Read full answer" [ref=f20e39] [cursor=pointer]:
+                  - /url: /faq-answer-01-what-is-chamet
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f20e40]: →
+            - generic [ref=f20e41]:
+              - button "2. Is Chamet trustworthy?" [ref=f20e42] [cursor=pointer]
+              - generic [ref=f20e47]:
+                - paragraph [ref=f20e48]: Chamet uses real-person verification, encrypted video calls, AI moderation, and ...
+                - link "Read full answer" [ref=f20e49] [cursor=pointer]:
+                  - /url: /faq-answer-02-is-chamet-trustworthy
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f20e50]: →
+            - generic [ref=f20e51]:
+              - button "3. Where is Chamet available?" [ref=f20e52] [cursor=pointer]
+              - generic [ref=f20e57]:
+                - paragraph [ref=f20e58]: Chamet connects users from different countries and regions, but especially ...
+                - link "Read full answer" [ref=f20e59] [cursor=pointer]:
+                  - /url: /faq-answer-03-where-is-chamet-available
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f20e60]: →
+            - generic [ref=f20e61]:
+              - button "4. Can I use Chamet on my computer or desktop?" [ref=f20e62] [cursor=pointer]
+              - generic [ref=f20e67]:
+                - paragraph [ref=f20e68]: Yes. You can use Chamet on a desktop browser through ...
+                - link "Read full answer" [ref=f20e69] [cursor=pointer]:
+                  - /url: /faq-answer-04-can-i-use-chamet-on-my-computer-or-desktop
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f20e70]: →
+            - generic [ref=f20e71]:
+              - button "5. Is my personal information safe?" [ref=f20e72] [cursor=pointer]
+              - generic [ref=f20e77]:
+                - paragraph [ref=f20e78]: Chamet uses multi-layer encryption, and video calls are protected by ...
+                - link "Read full answer" [ref=f20e79] [cursor=pointer]:
+                  - /url: /faq-answer-05-is-my-personal-information-safe
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f20e80]: →
+            - generic [ref=f20e81]:
+              - button "6. Can I use the same Chamet account on more than one device?" [ref=f20e82] [cursor=pointer]
+              - generic [ref=f20e87]:
+                - paragraph [ref=f20e88]: Yes. Your chat history and Diamond balance are synchronized across ...
+                - link "Read full answer" [ref=f20e89] [cursor=pointer]:
+                  - /url: /faq-answer-06-can-i-use-the-same-chamet-account-on-more-than-one-device
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f20e90]: →
+            - generic [ref=f20e91]:
+              - button "7. How does Chamet match me with other users?" [ref=f20e92] [cursor=pointer]
+              - generic [ref=f20e97]:
+                - paragraph [ref=f20e98]: For private 1v1 matching, Chamet uses preferences such as language ...
+                - link "Read full answer" [ref=f20e99] [cursor=pointer]:
+                  - /url: /faq-answer-07-how-does-chamet-match-me-with-other-users
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f20e100]: →
+            - generic [ref=f20e101]:
+              - button "8. Is it safe to talk to strangers on Chamet?" [ref=f20e102] [cursor=pointer]
+              - generic [ref=f20e107]:
+                - paragraph [ref=f20e108]: Chamet uses encryption, moderation, verification, blocking, and reporting tools to ...
+                - link "Read full answer" [ref=f20e109] [cursor=pointer]:
+                  - /url: /faq-answer-08-is-it-safe-to-talk-to-strangers-on-chamet
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f20e110]: →
+        - link "← All FAQ categories" [ref=f20e111] [cursor=pointer]:
+          - /url: /faq
+  - contentinfo [ref=f20e113]:
+    - generic [ref=f20e114]:
+      - generic [ref=f20e115]:
+        - generic [ref=f20e116]:
+          - link "Chamet Agency" [ref=f20e117] [cursor=pointer]:
+            - /url: /
+            - img "Chamet Agency Logo" [ref=f20e118]
+            - generic [ref=f20e119]: ChametAgency
+          - paragraph [ref=f20e120]: Official partner agency for Chamet livestreaming ecosystem. Empowering creators and agency leaders worldwide with dedicated mentorship, 24/7 support, and transparent weekly earnings.
+        - generic [ref=f20e121]:
+          - heading "Quick Links" [level=3] [ref=f20e122]
+          - list [ref=f20e123]:
+            - listitem [ref=f20e124]:
+              - link "Home" [ref=f20e125] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f20e126]:
+              - link "Host" [ref=f20e127] [cursor=pointer]:
+                - /url: /host
+            - listitem [ref=f20e128]:
+              - link "Agent" [ref=f20e129] [cursor=pointer]:
+                - /url: /agent
+            - listitem [ref=f20e130]:
+              - link "FAQ" [ref=f20e131] [cursor=pointer]:
+                - /url: /faq
+        - generic [ref=f20e132]:
+          - heading "Official Community" [level=3] [ref=f20e133]
+          - generic [ref=f20e134]:
+            - link "Follow Chamet on Instagram" [ref=f20e135] [cursor=pointer]:
+              - /url: https://www.instagram.com/chametindonesia/
+              - generic [ref=f20e140]: Instagram Chamet
+            - link "Contact Chamet Support on Telegram" [ref=f20e141] [cursor=pointer]:
+              - /url: https://t.me/chametsupport/
+              - generic [ref=f20e145]: Telegram Chamet
+      - generic [ref=f20e146]:
+        - paragraph [ref=f20e147]: © 2026 pchametagency.id. All rights reserved.
+        - paragraph [ref=f20e148]: Official Agency Recruitment & Management Portal

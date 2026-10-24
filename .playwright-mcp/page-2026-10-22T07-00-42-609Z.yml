@@ -1,0 +1,39 @@
+- contentinfo [ref=f2e2]:
+  - generic [ref=f2e3]:
+    - generic [ref=f2e4]:
+      - generic [ref=f2e5]:
+        - link "Chamet Agency" [ref=f2e6] [cursor=pointer]:
+          - /url: /
+          - img "Chamet Agency Logo" [ref=f2e7]
+          - generic [ref=f2e8]: ChametAgency
+        - paragraph [ref=f2e9]: Official partner agency for Chamet livestreaming ecosystem. Empowering creators and agency leaders worldwide with dedicated mentorship, 24/7 support, and transparent weekly earnings.
+      - generic [ref=f2e10]:
+        - heading "Quick Links" [level=3] [ref=f2e11]
+        - list [ref=f2e12]:
+          - listitem [ref=f2e13]:
+            - link "Home" [ref=f2e14] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f2e15]:
+            - link "Host" [ref=f2e16] [cursor=pointer]:
+              - /url: /host
+          - listitem [ref=f2e17]:
+            - link "Agent" [ref=f2e18] [cursor=pointer]:
+              - /url: /agent
+          - listitem [ref=f2e19]:
+            - link "FAQ" [ref=f2e20] [cursor=pointer]:
+              - /url: /faq
+      - generic [ref=f2e21]:
+        - heading "Official Community" [level=3] [ref=f2e22]
+        - generic [ref=f2e23]:
+          - link "Follow us on TikTok @halalivechat" [ref=f2e24] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@chamet.agencyyy
+            - generic [ref=f2e28]: TikTok @halalivechat
+          - link "Follow us on Instagram @halalivechat" [ref=f2e29] [cursor=pointer]:
+            - /url: https://www.instagram.com/chametagencyy/
+            - generic [ref=f2e34]: Instagram @halalivechat
+          - link "Contact Support on Telegram" [ref=f2e35] [cursor=pointer]:
+            - /url: https://t.me/chametsupport
+            - generic [ref=f2e39]: Telegram Support
+    - generic [ref=f2e40]:
+      - paragraph [ref=f2e41]: © 2026 pchametagency.id. All rights reserved.
+      - paragraph [ref=f2e42]: Official Agency Recruitment & Management Portal

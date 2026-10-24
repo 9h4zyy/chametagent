@@ -162,6 +162,22 @@
         });
       });
 
+      document.addEventListener('click', function(e) {
+        const link = e.target.closest('a[href^="/"]');
+        if (!link || link.getAttribute('target') === '_blank') return;
+        const href = link.getAttribute('href');
+        if (href.startsWith('/#')) return;
+
+        // If viewed locally offline via file:// protocol only, map route to local .html file
+        if (window.location.protocol === 'file:') {
+          const cleanRoute = href.replace(/\.html$/, '').replace(/\/$/, '') || '/';
+          const targetFile = cleanRoute === '/' ? 'index.html' : cleanRoute.replace(/^\//, '') + '.html';
+          e.preventDefault();
+          window.location.href = targetFile;
+        }
+        // In WordPress Elementor (http/https), native link navigation directly opens /faq slug
+      });
+
       function loadPreviewComponent(placeholderId, filePath) {
         const placeholder = document.getElementById(placeholderId);
         if (!placeholder) return;

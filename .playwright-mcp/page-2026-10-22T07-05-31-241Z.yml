@@ -1,0 +1,36 @@
+- contentinfo [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Chamet Agency" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "Chamet Agency Logo" [ref=e7]
+          - generic [ref=e8]: ChametAgency
+        - paragraph [ref=e9]: Official partner agency for Chamet livestreaming ecosystem. Empowering creators and agency leaders worldwide with dedicated mentorship, 24/7 support, and transparent weekly earnings.
+      - generic [ref=e10]:
+        - heading "Quick Links" [level=3] [ref=e11]
+        - list [ref=e12]:
+          - listitem [ref=e13]:
+            - link "Home" [ref=e14] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e15]:
+            - link "Host" [ref=e16] [cursor=pointer]:
+              - /url: /host
+          - listitem [ref=e17]:
+            - link "Agent" [ref=e18] [cursor=pointer]:
+              - /url: /agent
+          - listitem [ref=e19]:
+            - link "FAQ" [ref=e20] [cursor=pointer]:
+              - /url: /faq
+      - generic [ref=e21]:
+        - heading "Official Community" [level=3] [ref=e22]
+        - generic [ref=e23]:
+          - link "Follow Chamet on Instagram" [ref=e24] [cursor=pointer]:
+            - /url: https://www.instagram.com/chametindonesia/
+            - generic [ref=e29]: Instagram Chamet
+          - link "Contact Chamet Support on Telegram" [ref=e30] [cursor=pointer]:
+            - /url: https://t.me/chametsupport/
+            - generic [ref=e34]: Telegram Chamet
+    - generic [ref=e35]:
+      - paragraph [ref=e36]: © 2026 pchametagency.id. All rights reserved.
+      - paragraph [ref=e37]: Official Agency Recruitment & Management Portal

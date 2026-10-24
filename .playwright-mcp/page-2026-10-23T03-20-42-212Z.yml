@@ -1,0 +1,172 @@
+- generic [active] [ref=f19e1]:
+  - generic:
+    - banner:
+      - generic [ref=f19e2]:
+        - link "Chamet Agency Home" [ref=f19e3] [cursor=pointer]:
+          - /url: /
+          - img "Chamet Agency Logo" [ref=f19e4]
+          - generic [ref=f19e5]: Chamet
+        - navigation "Main Navigation" [ref=f19e6]:
+          - link "Home" [ref=f19e7] [cursor=pointer]:
+            - /url: /
+          - link "Host" [ref=f19e8] [cursor=pointer]:
+            - /url: /host
+          - link "Agent" [ref=f19e9] [cursor=pointer]:
+            - /url: /agent
+          - link "FAQ" [ref=f19e10] [cursor=pointer]:
+            - /url: /faq
+        - generic [ref=f19e11]:
+          - link "Join Host" [ref=f19e12] [cursor=pointer]:
+            - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+          - link "Start Agency" [ref=f19e14] [cursor=pointer]:
+            - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+  - main [ref=f19e16]:
+    - generic [ref=f19e18]:
+      - link "FAQ" [ref=f19e19] [cursor=pointer]:
+        - /url: /faq
+        - generic [aria-hidden] [ref=f19e20]: ←
+        - text: FAQ
+      - paragraph [ref=f19e21]: SUPPORT & KNOWLEDGE HUB
+      - heading "Chamet Agency" [level=1] [ref=f19e22]
+      - paragraph [ref=f19e23]: Answers to questions regarding Chamet agency
+    - region [ref=f19e24]:
+      - generic [ref=f19e25]:
+        - generic [ref=f19e26]:
+          - generic [ref=f19e27]:
+            - heading "Chamet Agency" [level=2] [ref=f19e28]
+            - paragraph [ref=f19e29]: Answers to questions regarding Chamet agency
+          - generic [ref=f19e30]:
+            - generic [ref=f19e31]:
+              - button "1. How can I earn money as a Chamet agent?" [ref=f19e32] [cursor=pointer]
+              - generic [ref=f19e37]:
+                - paragraph [ref=f19e38]: Agents can earn commission from the activity of hosts and ...
+                - link "Read full answer" [ref=f19e39] [cursor=pointer]:
+                  - /url: /faq-answer-37-how-can-i-earn-money-as-a-chamet-agent
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f19e40]: →
+            - generic [ref=f19e41]:
+              - button "2. How can my Chamet agency earn commission?" [ref=f19e42] [cursor=pointer]
+              - generic [ref=f19e47]:
+                - paragraph [ref=f19e48]: Hosts can earn through virtual gifts and video-chat requests. A ...
+                - link "Read full answer" [ref=f19e49] [cursor=pointer]:
+                  - /url: /faq-answer-38-how-can-my-chamet-agency-earn-commission
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f19e50]: →
+            - generic [ref=f19e51]:
+              - button "3. How often is Chamet agency commission paid?" [ref=f19e52] [cursor=pointer]
+              - generic [ref=f19e57]:
+                - paragraph [ref=f19e58]: Host earnings are processed weekly, typically every Thursday. Agency commission ...
+                - link "Read full answer" [ref=f19e59] [cursor=pointer]:
+                  - /url: /faq-answer-39-how-often-is-chamet-agency-commission-paid
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f19e60]: →
+            - generic [ref=f19e61]:
+              - button "4. How can I improve my Chamet agency performance?" [ref=f19e62] [cursor=pointer]
+              - generic [ref=f19e67]:
+                - paragraph [ref=f19e68]: Improve how you engage with users, use an attractive and ...
+                - link "Read full answer" [ref=f19e69] [cursor=pointer]:
+                  - /url: /faq-answer-40-how-can-i-improve-my-chamet-agency-performance
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f19e70]: →
+            - generic [ref=f19e71]:
+              - button "5. What are the benefits of becoming a Chamet agency?" [ref=f19e72] [cursor=pointer]
+              - generic [ref=f19e77]:
+                - paragraph [ref=f19e78]: Hosting 1v1 live chats can help you build deeper connections ...
+                - link "Read full answer" [ref=f19e79] [cursor=pointer]:
+                  - /url: /faq-answer-41-what-are-the-benefits-of-becoming-a-chamet-agency
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f19e80]: →
+            - generic [ref=f19e81]:
+              - button "6. What are the benefits of being an agent?" [ref=f19e82] [cursor=pointer]
+              - generic [ref=f19e87]:
+                - paragraph [ref=f19e88]: Agents can build a team, invite hosts and sub-agents, track ...
+                - link "Read full answer" [ref=f19e89] [cursor=pointer]:
+                  - /url: /faq-answer-42-what-are-the-benefits-of-being-an-agent
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f19e90]: →
+            - generic [ref=f19e91]:
+              - button "7. Can I become a Chamet agency without previous agency experience?" [ref=f19e92] [cursor=pointer]
+              - generic [ref=f19e97]:
+                - paragraph [ref=f19e98]: Previous hosting experience is not a necessary requirement. Chamet provides ...
+                - link "Read full answer" [ref=f19e99] [cursor=pointer]:
+                  - /url: /faq-answer-43-can-i-become-a-chamet-agency-without-previous-agency-experience
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f19e100]: →
+            - generic [ref=f19e101]:
+              - button "8. How can I increase my Chamet agency commission?" [ref=f19e102] [cursor=pointer]
+              - generic [ref=f19e107]:
+                - paragraph [ref=f19e108]: Hosts can improve earnings by staying active consistently, using a ...
+                - link "Read full answer" [ref=f19e109] [cursor=pointer]:
+                  - /url: /faq-answer-44-how-can-i-increase-my-chamet-agency-commission
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f19e110]: →
+            - generic [ref=f19e111]:
+              - button "9. How do I use the Chamet Agency Dashboard?" [ref=f19e112] [cursor=pointer]
+              - generic [ref=f19e117]:
+                - paragraph [ref=f19e118]: The Agency dashboard lets you track 1v1 chat duration and ...
+                - link "Read full answer" [ref=f19e119] [cursor=pointer]:
+                  - /url: /faq-answer-45-how-do-i-use-the-chamet-agency-dashboard
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f19e120]: →
+            - generic [ref=f19e121]:
+              - button "10. How do I invite new users to my Chamet agency?" [ref=f19e122] [cursor=pointer]
+              - generic [ref=f19e127]:
+                - paragraph [ref=f19e128]: Log in to the Agency dashboard, copy your agency invitation ...
+                - link "Read full answer" [ref=f19e129] [cursor=pointer]:
+                  - /url: /faq-answer-46-how-do-i-invite-new-users-to-my-chamet-agency
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f19e130]: →
+            - generic [ref=f19e131]:
+              - button "11. How do I invite a sub-agency to join my team?" [ref=f19e132] [cursor=pointer]
+              - generic [ref=f19e137]:
+                - paragraph [ref=f19e138]: Use the agency invitation link found in the Agency dashboard ...
+                - link "Read full answer" [ref=f19e139] [cursor=pointer]:
+                  - /url: /faq-answer-47-how-do-i-invite-a-sub-agency-to-join-my-team
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f19e140]: →
+            - generic [ref=f19e141]:
+              - button "12. How is my Chamet agency commission ratio calculated?" [ref=f19e142] [cursor=pointer]
+              - generic [ref=f19e147]:
+                - paragraph [ref=f19e148]: Your commission ratio is determined by total earnings over the ...
+                - link "Read full answer" [ref=f19e149] [cursor=pointer]:
+                  - /url: /faq-answer-48-how-is-my-chamet-agency-commission-ratio-calculated
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f19e150]: →
+        - link "← All FAQ categories" [ref=f19e151] [cursor=pointer]:
+          - /url: /faq
+  - contentinfo [ref=f19e153]:
+    - generic [ref=f19e154]:
+      - generic [ref=f19e155]:
+        - generic [ref=f19e156]:
+          - link "Chamet Agency" [ref=f19e157] [cursor=pointer]:
+            - /url: /
+            - img "Chamet Agency Logo" [ref=f19e158]
+            - generic [ref=f19e159]: ChametAgency
+          - paragraph [ref=f19e160]: Official partner agency for Chamet livestreaming ecosystem. Empowering creators and agency leaders worldwide with dedicated mentorship, 24/7 support, and transparent weekly earnings.
+        - generic [ref=f19e161]:
+          - heading "Quick Links" [level=3] [ref=f19e162]
+          - list [ref=f19e163]:
+            - listitem [ref=f19e164]:
+              - link "Home" [ref=f19e165] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f19e166]:
+              - link "Host" [ref=f19e167] [cursor=pointer]:
+                - /url: /host
+            - listitem [ref=f19e168]:
+              - link "Agent" [ref=f19e169] [cursor=pointer]:
+                - /url: /agent
+            - listitem [ref=f19e170]:
+              - link "FAQ" [ref=f19e171] [cursor=pointer]:
+                - /url: /faq
+        - generic [ref=f19e172]:
+          - heading "Official Community" [level=3] [ref=f19e173]
+          - generic [ref=f19e174]:
+            - link "Follow Chamet on Instagram" [ref=f19e175] [cursor=pointer]:
+              - /url: https://www.instagram.com/chametindonesia/
+              - generic [ref=f19e180]: Instagram Chamet
+            - link "Contact Chamet Support on Telegram" [ref=f19e181] [cursor=pointer]:
+              - /url: https://t.me/chametsupport/
+              - generic [ref=f19e185]: Telegram Chamet
+      - generic [ref=f19e186]:
+        - paragraph [ref=f19e187]: © 2026 pchametagency.id. All rights reserved.
+        - paragraph [ref=f19e188]: Official Agency Recruitment & Management Portal

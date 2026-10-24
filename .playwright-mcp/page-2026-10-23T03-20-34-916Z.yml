@@ -1,0 +1,148 @@
+- generic [active] [ref=f17e1]:
+  - generic:
+    - banner:
+      - generic [ref=f17e2]:
+        - link "Chamet Agency Home" [ref=f17e3] [cursor=pointer]:
+          - /url: /
+          - img "Chamet Agency Logo" [ref=f17e4]
+          - generic [ref=f17e5]: Chamet
+        - navigation "Main Navigation" [ref=f17e6]:
+          - link "Home" [ref=f17e7] [cursor=pointer]:
+            - /url: /
+          - link "Host" [ref=f17e8] [cursor=pointer]:
+            - /url: /host
+          - link "Agent" [ref=f17e9] [cursor=pointer]:
+            - /url: /agent
+          - link "FAQ" [ref=f17e10] [cursor=pointer]:
+            - /url: /faq
+        - generic [ref=f17e11]:
+          - link "Join Host" [ref=f17e12] [cursor=pointer]:
+            - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+          - link "Start Agency" [ref=f17e14] [cursor=pointer]:
+            - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+  - main [ref=f17e16]:
+    - generic [ref=f17e18]:
+      - link "FAQ" [ref=f17e19] [cursor=pointer]:
+        - /url: /faq
+        - generic [aria-hidden] [ref=f17e20]: ←
+        - text: FAQ
+      - paragraph [ref=f17e21]: SUPPORT & KNOWLEDGE HUB
+      - heading "Chamet Agency Withdrawal Questions & Help" [level=1] [ref=f17e22]
+      - paragraph [ref=f17e23]: Answers regarding withdrawal requirements, issues, account help, and troubleshooting
+    - region [ref=f17e24]:
+      - generic [ref=f17e25]:
+        - generic [ref=f17e26]:
+          - generic [ref=f17e27]:
+            - heading "Chamet Agency Withdrawal Questions & Help" [level=2] [ref=f17e28]
+            - paragraph [ref=f17e29]: Answers regarding withdrawal requirements, issues, account, and troubleshoots.
+          - generic [ref=f17e30]:
+            - generic [ref=f17e31]:
+              - button "1. How can I withdraw my Chamet agency commission?" [ref=f17e32] [cursor=pointer]
+              - generic [ref=f17e37]:
+                - paragraph [ref=f17e38]: For agency commission, bind a Metwallet account in the Agency ...
+                - link "Read full answer" [ref=f17e39] [cursor=pointer]:
+                  - /url: /faq-answer-28-how-can-i-withdraw-my-chamet-agency-commission
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f17e40]: →
+            - generic [ref=f17e41]:
+              - button "2. Is my withdrawal account information safe?" [ref=f17e42] [cursor=pointer]
+              - generic [ref=f17e47]:
+                - paragraph [ref=f17e48]: Chamet uses compliant payment gateways and encrypted transactions for recharge ...
+                - link "Read full answer" [ref=f17e49] [cursor=pointer]:
+                  - /url: /faq-answer-29-is-my-withdrawal-account-information-safe
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f17e50]: →
+            - generic [ref=f17e51]:
+              - button "3. What withdrawal methods are available for Chamet agency commission?" [ref=f17e52] [cursor=pointer]
+              - generic [ref=f17e57]:
+                - paragraph [ref=f17e58]: Withdrawal methods vary by country, but in general MetWallet supports ...
+                - link "Read full answer" [ref=f17e59] [cursor=pointer]:
+                  - /url: /faq-answer-30-what-withdrawal-methods-are-available-for-chamet-agency-commission
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f17e60]: →
+            - generic [ref=f17e61]:
+              - button "4. How do I recharge my Diamonds on Chamet?" [ref=f17e62] [cursor=pointer]
+              - generic [ref=f17e67]:
+                - paragraph [ref=f17e68]: Open the Wallet or recharge area and follow the available ...
+                - link "Read full answer" [ref=f17e69] [cursor=pointer]:
+                  - /url: /faq-answer-31-how-do-i-recharge-my-diamonds-on-chamet
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f17e70]: →
+            - generic [ref=f17e71]:
+              - button "5. Can I change my payment currency?" [ref=f17e72] [cursor=pointer]
+              - generic [ref=f17e77]:
+                - paragraph [ref=f17e78]: For Google Play, change your country settings to match your ...
+                - link "Read full answer" [ref=f17e79] [cursor=pointer]:
+                  - /url: /faq-answer-32-can-i-change-my-payment-currency
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f17e80]: →
+            - generic [ref=f17e81]:
+              - button "6. What should I do if my agency commission withdrawal fails?" [ref=f17e82] [cursor=pointer]
+              - generic [ref=f17e87]:
+                - paragraph [ref=f17e88]: For agency commission and host earning, first make sure your ...
+                - link "Read full answer" [ref=f17e89] [cursor=pointer]:
+                  - /url: /faq-answer-33-what-should-i-do-if-my-agency-commission-withdrawal-fails
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f17e90]: →
+            - generic [ref=f17e91]:
+              - button "7. What is the minimum agency commission required before transfer?" [ref=f17e92] [cursor=pointer]
+              - generic [ref=f17e97]:
+                - paragraph [ref=f17e98]: Your accumulated agency commission must reach $10 before it is ...
+                - link "Read full answer" [ref=f17e99] [cursor=pointer]:
+                  - /url: /faq-answer-34-what-is-the-minimum-agency-commission-required-before-transfer
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f17e100]: →
+            - generic [ref=f17e101]:
+              - button "8. When are Chamet host earnings processed?" [ref=f17e102] [cursor=pointer]
+              - generic [ref=f17e107]:
+                - paragraph [ref=f17e108]: Host earnings are processed weekly to the MetWallet account, typically ...
+                - link "Read full answer" [ref=f17e109] [cursor=pointer]:
+                  - /url: /faq-answer-35-when-are-chamet-host-earnings-processed
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f17e110]: →
+            - generic [ref=f17e111]:
+              - button "9. What should I do if my Diamonds do not arrive after a recharge?" [ref=f17e112] [cursor=pointer]
+              - generic [ref=f17e117]:
+                - paragraph [ref=f17e118]: The payment may still be processed through Google or your ...
+                - link "Read full answer" [ref=f17e119] [cursor=pointer]:
+                  - /url: /faq-answer-36-what-should-i-do-if-my-diamonds-do-not-arrive-after-a-recharge
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f17e120]: →
+        - link "← All FAQ categories" [ref=f17e121] [cursor=pointer]:
+          - /url: /faq
+  - contentinfo [ref=f17e123]:
+    - generic [ref=f17e124]:
+      - generic [ref=f17e125]:
+        - generic [ref=f17e126]:
+          - link "Chamet Agency" [ref=f17e127] [cursor=pointer]:
+            - /url: /
+            - img "Chamet Agency Logo" [ref=f17e128]
+            - generic [ref=f17e129]: ChametAgency
+          - paragraph [ref=f17e130]: Official partner agency for Chamet livestreaming ecosystem. Empowering creators and agency leaders worldwide with dedicated mentorship, 24/7 support, and transparent weekly earnings.
+        - generic [ref=f17e131]:
+          - heading "Quick Links" [level=3] [ref=f17e132]
+          - list [ref=f17e133]:
+            - listitem [ref=f17e134]:
+              - link "Home" [ref=f17e135] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f17e136]:
+              - link "Host" [ref=f17e137] [cursor=pointer]:
+                - /url: /host
+            - listitem [ref=f17e138]:
+              - link "Agent" [ref=f17e139] [cursor=pointer]:
+                - /url: /agent
+            - listitem [ref=f17e140]:
+              - link "FAQ" [ref=f17e141] [cursor=pointer]:
+                - /url: /faq
+        - generic [ref=f17e142]:
+          - heading "Official Community" [level=3] [ref=f17e143]
+          - generic [ref=f17e144]:
+            - link "Follow Chamet on Instagram" [ref=f17e145] [cursor=pointer]:
+              - /url: https://www.instagram.com/chametindonesia/
+              - generic [ref=f17e150]: Instagram Chamet
+            - link "Contact Chamet Support on Telegram" [ref=f17e151] [cursor=pointer]:
+              - /url: https://t.me/chametsupport/
+              - generic [ref=f17e155]: Telegram Chamet
+      - generic [ref=f17e156]:
+        - paragraph [ref=f17e157]: © 2026 pchametagency.id. All rights reserved.
+        - paragraph [ref=f17e158]: Official Agency Recruitment & Management Portal

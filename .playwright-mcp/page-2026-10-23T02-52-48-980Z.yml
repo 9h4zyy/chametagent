@@ -1,0 +1,846 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic:
+      - banner:
+        - generic [ref=e4]:
+          - link "Chamet Agency Home" [ref=e5] [cursor=pointer]:
+            - /url: /
+            - img "Chamet Agency Logo" [ref=e6]
+            - generic [ref=e7]: ChametAgency
+          - navigation "Main Navigation" [ref=e8]:
+            - link "Home" [ref=e9] [cursor=pointer]:
+              - /url: /
+            - link "Host" [active] [ref=e10] [cursor=pointer]:
+              - /url: /host
+            - link "Agent" [ref=e11] [cursor=pointer]:
+              - /url: /agent
+            - link "FAQ" [ref=e12] [cursor=pointer]:
+              - /url: /faq
+          - generic [ref=e13]:
+            - link "Join Host" [ref=e14] [cursor=pointer]:
+              - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+            - link "Start Agency" [ref=e16] [cursor=pointer]:
+              - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+    - main [ref=e18]:
+      - generic [ref=e19]:
+        - generic [aria-hidden]: ✦
+        - generic [aria-hidden]: ✦
+        - generic [aria-hidden]: ★
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - generic [ref=e22]: Official Chamet Agency Partner
+            - heading "Build Your Own Team, Livestream, and Earn With Chamet" [level=1] [ref=e25]
+            - paragraph [ref=e26]: Launch your own Chamet agency, recruit hosts & sub-agents, and earn a percentage of your team's revenue. Or, start your livestream journey as a Chamet host, broadcast to a global audience, collect gifts, and turn your personality into income!
+            - generic [ref=e27]:
+              - link "Create Your Agency" [ref=e28] [cursor=pointer]:
+                - /url: "#chamet-agent-role"
+              - link "Become a Host" [ref=e32] [cursor=pointer]:
+                - /url: "#chamet-host-role"
+          - generic [ref=e36]:
+            - generic [ref=e42]:
+              - generic [ref=e43]: Up to 30%
+              - generic [ref=e44]: Agency Commission
+            - generic [ref=e49]:
+              - generic [ref=e50]: Always Keep 60%
+              - generic [ref=e51]: Host Stream Share
+            - generic [ref=e52]: 50+ Countries Live
+            - 'link "View full image: Chamet live stream host with viewer comments and gifts" [ref=e56]':
+              - /url: https://chametagent.com/wp-content/uploads/2026/10/fix.svg
+              - img "Chamet live stream host with viewer comments, gifts and community interactions" [ref=e57]
+              - generic [aria-hidden]:
+                - generic: Zoom
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - generic [ref=e61]: Global Impact
+          - heading "Trusted Livestream App by Millions Across the Globe" [level=2] [ref=e62]
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - generic [ref=e65]: 50M+
+            - heading [level=3] [ref=e66]:
+              - strong [ref=e67]: 50M+ Downloads
+              - text: One of the fastest-growing livestream platforms worldwide.
+          - generic [ref=e68]:
+            - generic [ref=e69]: 4.1⭐
+            - heading [level=3] [ref=e70]:
+              - strong [ref=e71]: 4.1⭐ User Rating
+              - text: Real feedback from hosts, viewers, and agency owners.
+          - generic [ref=e72]:
+            - generic [ref=e73]: 10M+
+            - heading [level=3] [ref=e74]:
+              - strong [ref=e75]: 10M+ Active Users
+              - text: A massive audience that further fuels host visibility and agency growth.
+          - generic [ref=e76]:
+            - generic [ref=e77]: 50+
+            - heading [level=3] [ref=e78]:
+              - strong [ref=e79]: 50+ Countries
+              - text: Go live in the Middle East, Latin America, South Asia, and Southeast Asia.
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - generic [ref=e83]: About Platform
+          - heading "Beyond Regular Livestreaming with Chamet" [level=2] [ref=e84]
+        - paragraph [ref=e86]: Chamet is an ecosystem where engagement creates real income. Hosts connect with viewers through video and earn via gifts & calls. Agents grow their earnings by building their team. The platform provides the infrastructure, and you provide the talent and drive.
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - generic [ref=e90]: HOST CAREER
+          - heading "Own Your Stream. Own Your Earnings." [level=2] [ref=e91]
+          - paragraph [ref=e92]: Livestream your personality to viewers across 50+ countries. No experience needed, just a phone and a passion to connect.
+        - generic [ref=e93]:
+          - 'link "View full image: Chamet Host Role" [ref=e96]':
+            - /url: https://chametagent.com/wp-content/uploads/2026/10/Chamet-Host-Role.png
+            - img "Chamet Host Role" [ref=e97]
+            - generic [aria-hidden]:
+              - generic: Zoom
+          - generic [ref=e98]:
+            - generic [ref=e103]:
+              - heading "Always keep 60%" [level=3] [ref=e104]
+              - paragraph [ref=e105]: Of every gift, tip, and private call charge
+            - generic [ref=e110]:
+              - heading "Multiple earning channels" [level=3] [ref=e111]
+              - paragraph [ref=e112]: Via public streams, PK battles, party rooms, and 1-on-1 video calls
+            - generic [ref=e118]:
+              - heading "Real-time translation" [level=3] [ref=e119]
+              - paragraph [ref=e120]: To break language barriers and grow your international fanbase
+            - generic [ref=e125]:
+              - heading "Flexible global withdrawals" [level=3] [ref=e126]
+              - paragraph [ref=e127]: Via USDT, bank transfer, and local e-wallets
+            - generic [ref=e133]:
+              - heading "24/7 host support" [level=3] [ref=e134]
+              - paragraph [ref=e135]: For help whenever you need it
+            - link "Learn more about Host Career" [ref=e137] [cursor=pointer]:
+              - /url: /host
+      - generic [ref=e142]:
+        - generic [ref=e143]:
+          - generic [ref=e144]:
+            - generic [ref=e145]: AGENCY LEADERSHIP
+            - heading "Grow Your Agency. Earn from Your Team's Success." [level=2] [ref=e146]: Grow Your Agency. Earn fromYour Team's Success.
+          - generic [ref=e147]:
+            - paragraph [ref=e148]: Beyond just streaming, you can start managing. Recruit hostesses and sub-agents worldwide. Your income scales directly with your team's performance, with no limits and no complicated requirements.
+            - link "Start Your Agency" [ref=e149] [cursor=pointer]:
+              - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+        - generic [ref=e153]:
+          - 'link "View full image: Chamet Agent Role" [ref=e156]':
+            - /url: https://chametagent.com/wp-content/uploads/2026/10/Chamet-Agent-Role.png
+            - img "Chamet Agent Role" [ref=e157]
+            - generic [aria-hidden]:
+              - generic: Zoom
+          - generic [ref=e158]:
+            - generic [ref=e164]:
+              - heading "Commission from 5% up to 30%" [level=3] [ref=e165]
+              - paragraph [ref=e166]: As your rate climbs as your team's 30-day revenue grows
+            - generic [ref=e174]:
+              - heading "Real-time management dashboard" [level=3] [ref=e175]
+              - paragraph [ref=e176]: To monitor earnings, activity, and growth at a glance
+            - generic [ref=e185]:
+              - heading "Global recruitment" [level=3] [ref=e186]
+              - paragraph [ref=e187]: Build your network across any of Chamet's 50+ markets
+            - generic [ref=e196]:
+              - heading "Daily withdraw" [level=3] [ref=e197]
+              - paragraph [ref=e198]: Once you hit $10 in commissions, withdraw directly via your MetWallet
+            - generic [ref=e209]:
+              - heading "Dedicated agency support" [level=3] [ref=e210]
+              - paragraph [ref=e211]: Guidance for recruitment, mentoring, and earning more as agent
+      - generic [ref=e216]:
+        - generic [ref=e217]:
+          - generic [ref=e218]: Community Roles
+          - heading "Three Ways to Join the Chamet Ecosystem" [level=2] [ref=e219]
+        - generic [ref=e220]:
+          - generic [ref=e221]:
+            - heading "Watch, Chat, and Support" [level=3] [ref=e226]
+            - paragraph [ref=e227]: Join live streams, engage with hosts, send virtual gifts, and become part of an active global community.
+          - generic [ref=e228]:
+            - heading "Go Live and Earn" [level=3] [ref=e233]
+            - paragraph [ref=e234]: Broadcast your personality, host private calls, and get paid for every interaction you create.
+          - generic [ref=e235]:
+            - heading "Recruit, Manage, and Grow" [level=3] [ref=e240]
+            - paragraph [ref=e241]: Build a professional agency. Recruit hosts and sub-agents, guide their growth, and collect commissions from your team’s performance.
+      - generic [ref=e243]:
+        - generic [ref=e244]:
+          - generic [ref=e245]: Got Questions?
+          - heading "Frequently Asked Questions" [level=2] [ref=e246]
+        - generic [ref=e247]:
+          - generic [ref=e248]:
+            - button "How do I become a Chamet agent?" [ref=e249] [cursor=pointer]
+            - paragraph [ref=e255]: You must register through the official Chamet Agency Registration form. The process requires an active phone number. Once registered, you can immediately start recruiting hosts and sub-agents.
+          - generic [ref=e256]:
+            - button "What if I don't receive my OTP/SMS code?" [ref=e257] [cursor=pointer]
+            - paragraph [ref=e263]: This is typically caused by network delays. Double-check the phone number, or wait a few minutes and try resending. If the issue persists, contact support.
+          - generic [ref=e264]:
+            - button "How is my agent commission calculated?" [ref=e265] [cursor=pointer]
+            - paragraph [ref=e271]: Your daily commission rate is based on your entire team's total earnings over the last 30 days. For new agents (less than 30 days old), the rate is calculated from your registration day up to yesterday.
+          - generic [ref=e272]:
+            - button "Can I add existing Chamet users to my agency?" [ref=e273] [cursor=pointer]
+            - paragraph [ref=e279]: No. Only new users who register through your specific referral link can be added to your team. Existing users cannot be manually bound to your agency.
+          - generic [ref=e280]:
+            - button "Are there rules against poaching hosts from other agencies?" [ref=e281] [cursor=pointer]
+            - paragraph [ref=e287]: Yes. Chamet strictly prohibits recruiting hosts or sub-agents who are already active on the platform under another agency. Violating this rule may result in account suspension.
+          - generic [ref=e288]:
+            - button "How do I withdraw my commission as an agent?" [ref=e289] [cursor=pointer]
+            - paragraph [ref=e295]: You must bind a MetWallet account to your agency backend (found in My Profile → MetWallet Account → Bind Wallet). Once your accumulated commission reaches $10, you can withdraw your earnings.
+          - generic [ref=e296]:
+            - button "How much commission can I really earn as an agent?" [ref=e297] [cursor=pointer]
+            - paragraph [ref=e303]: "Your commission range is transparent: from 5% up to 30% of your team's total earnings. The exact percentage depends on your team's combined revenue over the rolling 30-day period."
+          - generic [ref=e304]:
+            - button "What do I need to start my agency immediately?" [ref=e305] [cursor=pointer]
+            - paragraph [ref=e311]: Just a verified phone number. Start recruiting your team members right away. To withdraw funds, you'll need to complete the MetWallet verification, but there's no cost to register or build your team.
+      - generic [ref=e315]:
+        - heading "Ready to Stream or Build Your Agency? Start Earning Right Now" [level=2] [ref=e316]
+        - paragraph [ref=e317]: Join millions active users on Chamet. Go live as a host and earn from your interactions, or launch your own agency and profit from your team's growth. No fees, no paperwork, just real opportunities.
+        - generic [ref=e318]:
+          - link "Become a Host" [ref=e319] [cursor=pointer]:
+            - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+          - link "Become an Agent" [ref=e323] [cursor=pointer]:
+            - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+      - dialog [aria-hidden]:
+        - button
+    - main [ref=e327]:
+      - generic [ref=e328]:
+        - generic [aria-hidden]: ✦
+        - generic [aria-hidden]: ✦
+        - generic [aria-hidden]: ★
+        - generic [ref=e329]:
+          - generic [ref=e330]:
+            - generic [ref=e331]: Chamet Host Talent Portal
+            - heading "Become a Chamet Live Host Superstar" [level=1] [ref=e334]
+            - paragraph [ref=e335]: Step into the spotlight as an official Chamet host with an experienced agency support to guide you. Build your presence, collect gifts, and start earning. Whether you're new or looking to grow, Chamet welcomes you.
+            - link "Become a Host" [ref=e337] [cursor=pointer]:
+              - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+          - generic [ref=e341]:
+            - generic [ref=e345]:
+              - generic [ref=e346]: Keep 60%
+              - generic [ref=e347]: Gift & Call Revenue
+            - generic [ref=e353]:
+              - generic [ref=e354]: 24/7 Support
+              - generic [ref=e355]: Agency Mentorship
+            - generic [ref=e356]: 24/7 Agency Mentorship
+            - 'link "View full image: Chamet host livestream hero illustration" [ref=e360]':
+              - /url: https://chametagent.com/wp-content/uploads/2026/10/fix-host-.svg
+              - img "Chamet host livestream hero illustration" [ref=e361]
+              - generic [aria-hidden]:
+                - generic: Zoom
+      - generic [ref=e364]:
+        - generic [ref=e365]:
+          - generic [ref=e366]: Role Overview
+          - heading "What is Chamet Host?" [level=2] [ref=e367]
+          - paragraph [ref=e368]: A Chamet host is the heart of the platform's live entertainment. Beyond simply going live, you'll connect with viewers through livestreams, private video calls, PK battles, and party rooms. Your agent is there to support you every step of the way.
+          - generic [ref=e369]:
+            - generic [ref=e374]:
+              - heading "Global Broadcast" [level=3] [ref=e375]
+              - paragraph [ref=e376]: Broadcast live to a global audience
+            - generic [ref=e382]:
+              - heading "Daily Platform Tasks" [level=3] [ref=e383]
+              - paragraph [ref=e384]: Complete daily tasks and participate in platform programs
+            - generic [ref=e389]:
+              - heading "Rich Interactions" [level=3] [ref=e390]
+              - paragraph [ref=e391]: Interact with viewers via live chat, video calls, and various Chamet features
+            - generic [ref=e399]:
+              - heading "Dedicated Agency Mentoring" [level=3] [ref=e400]
+              - paragraph [ref=e401]: Receive hands-on mentoring and ongoing support from your agent
+        - 'link "View full image: Chamet Host Role" [ref=e404]':
+          - /url: https://chametagent.com/wp-content/uploads/2026/10/Chamet-Host-Role.png
+          - img "Chamet Host Role" [ref=e405]
+          - generic [aria-hidden]:
+            - generic: Zoom
+      - generic [ref=e407]:
+        - generic [ref=e408]:
+          - generic [ref=e409]: Earning Tools
+          - heading "Tools That Drive Engagement and Boost Agency Value" [level=2] [ref=e410]
+          - paragraph [ref=e411]: Chamet provides six powerful features to captivate audiences, increase your gift earnings, and make you a highly valuable talent for any agency.
+        - generic [ref=e412]:
+          - generic [ref=e413]:
+            - generic [ref=e414]: "01"
+            - 'heading "Feature 1: Live Stream" [level=3] [ref=e415]'
+            - paragraph [ref=e416]: Go live, share your personality, and connect with viewers in real time. Every stream grows your audience and generates gifts, directly contributing to your income.
+          - generic [ref=e417]:
+            - generic [ref=e418]: "02"
+            - 'heading "Feature 2: Video Call" [level=3] [ref=e419]'
+            - paragraph [ref=e420]: One-on-one video sessions for deeper viewer connections. Earn additional coins based on call duration, giving you a steady income stream even outside public broadcasts
+          - generic [ref=e421]:
+            - generic [ref=e422]: "03"
+            - 'heading "Feature 3: Private Chat" [level=3] [ref=e423]'
+            - paragraph [ref=e424]: Keep the conversation going after the stream ends. Direct messages help you retain loyal followers, strengthen relationships, and build a fanbase that keeps coming back
+          - generic [ref=e425]:
+            - generic [ref=e426]: "04"
+            - 'heading "Feature 4: PK Battle" [level=3] [ref=e427]'
+            - paragraph [ref=e428]: Compete head-to-head with other hosts in exciting gifting battles. PKs drive excitement, audience competition, and trigger a lot of gifting, boosting both your earnings and your agency's income.
+          - generic [ref=e429]:
+            - generic [ref=e430]: "05"
+            - 'heading "Feature 5: Party Room" [level=3] [ref=e431]'
+            - paragraph [ref=e432]: Join multi-host group rooms to entertain broader audiences. Collaborative streams create fun, shared experiences that generate more gifts and expose you to viewers from other hosts' audiences.
+          - generic [ref=e433]:
+            - generic [ref=e434]: "06"
+            - 'heading "Feature 6: Feed & Moments" [level=3] [ref=e435]'
+            - paragraph [ref=e436]: Post photos, video clips, and stream highlights to keep your profile active. Even when you're offline, your content stays visible, helping you attract new followers and fans.
+      - generic [ref=e439]:
+        - heading "For more information about Chamet host" [level=2] [ref=e440]
+        - link "Visit Chamet host website" [ref=e441] [cursor=pointer]:
+          - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+      - generic [ref=e448]:
+        - generic [ref=e449]:
+          - generic [ref=e450]: Quality Guidelines
+          - heading "Profile Standards for Chamet Live Hosts" [level=2] [ref=e451]
+          - paragraph [ref=e452]: Follow these simple profile and photo guidelines to create a professional first impression, stay eligible for host rewards, and attract the attention of top agencies.
+        - generic [ref=e453]:
+          - generic [ref=e454]:
+            - heading "Polished Look" [level=3] [ref=e462]
+            - paragraph [ref=e463]: Use proper light or makeup to stay camera-ready and neat.
+          - generic [ref=e464]:
+            - heading "Authentic Photos" [level=3] [ref=e469]
+            - paragraph [ref=e470]: Upload your own pictures so viewers, and agents, can easily recognize you.
+          - generic [ref=e471]:
+            - heading "High Resolution" [level=3] [ref=e477]
+            - paragraph [ref=e478]: Choose bright, clear, high-quality profile images for a crisp on-screen presence.
+          - generic [ref=e479]:
+            - heading "Clean Background" [level=3] [ref=e484]
+            - paragraph [ref=e485]: Ensure your backdrop is tidy and distraction-free to keep focus on you.
+          - generic [ref=e486]:
+            - heading "Professional Attire" [level=3] [ref=e489]
+            - paragraph [ref=e490]: Wear modest, neat clothing in your half-body shots to maintain a trustworthy appearance.
+      - generic [ref=e493]:
+        - generic [ref=e494]:
+          - generic [ref=e495]: FAST PAYOUT
+          - heading "Withdraw Your Host Earnings Fast & Simple" [level=2] [ref=e502]
+        - generic [ref=e503]:
+          - generic [ref=e504]:
+            - generic [ref=e517]: $10 USD
+            - paragraph [ref=e519]: Minimum withdrawal:$10
+          - generic [ref=e520]:
+            - generic [ref=e532]: 10,000 Beans = $1
+            - paragraph [ref=e534]: "Conversion rate: 10,000 Beans= $1 USD"
+          - generic [ref=e535]:
+            - generic [ref=e545]: Global Methods
+            - paragraph [ref=e547]: Supported methods:Worldwide bank transfers,digital wallets, and cryptooptions via MetWallet
+      - generic [ref=e549]:
+        - generic [ref=e550]:
+          - generic [ref=e551]: Host FAQs
+          - heading "Frequently Asked Questions" [level=2] [ref=e552]
+          - paragraph [ref=e553]: Find answers to the most common questions about joining, starting, and growing as an official Chamet host
+        - generic [ref=e554]:
+          - generic [ref=e555]:
+            - button "How can I register as a Chamet host?" [ref=e556] [cursor=pointer]
+            - paragraph [ref=e562]: Complete the pre-registration (often provided by your agent), download the app, and sign in using the same credentials. It's free and open to beginners.
+          - generic [ref=e563]:
+            - button "What determines my earning potential on the platform?" [ref=e564] [cursor=pointer]
+            - paragraph [ref=e570]: Every interaction counts, livestreams, private calls, gifts, and special features all contribute. There is no earning cap, and your agent is incentivized to help you maximize every opportunity.
+          - generic [ref=e571]:
+            - button "Do new Chamet hosts receive a basic salary?" [ref=e572] [cursor=pointer]
+            - paragraph [ref=e578]: Not right away. New hosts need to meet specific activity and performance criteria first. Your agent will guide you through these requirements and help you unlock salary eligibility faster.
+          - generic [ref=e579]:
+            - button "Can I manage multiple accounts at the same time?" [ref=e580] [cursor=pointer]
+            - paragraph [ref=e586]: No. Chamet strictly allows only one account per individual.
+          - generic [ref=e587]:
+            - button "How and when can I withdraw my funds?" [ref=e588] [cursor=pointer]
+            - paragraph [ref=e594]: You can withdraw once your balance reaches $10 (100,000 Beans). Payments are processed in $10 increments.
+          - generic [ref=e595]:
+            - button "How is my privacy protected while streaming?" [ref=e596] [cursor=pointer]
+            - paragraph [ref=e602]: Chamet enforces strict policies against sharing personal information. Violations may result in suspension or a permanent ban.
+          - generic [ref=e603]:
+            - button "What payment or withdrawal methods are available?" [ref=e604] [cursor=pointer]
+            - paragraph [ref=e610]: For top-ups, Google Pay and Apple Pay are supported. Withdrawals go through MetWallet, which supports USDT, local bank transfers, e-wallets, and Epay in many regions.
+      - generic [ref=e614]:
+        - heading "Start Your Host Journey on Chamet" [level=2] [ref=e615]
+        - paragraph [ref=e616]: Sign-up takes just a few minutes with zero cost, zero commitment, just real earning opportunities. Join through our agency network and get the support, mentorship, and visibility you need to grow faster.
+        - generic [ref=e617]:
+          - link "Join as Host" [ref=e618] [cursor=pointer]:
+            - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+          - link "Visit Chamet Host Website" [ref=e622] [cursor=pointer]:
+            - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+      - dialog [aria-hidden]:
+        - button
+    - main [ref=e628]:
+      - generic [ref=e629]:
+        - generic [aria-hidden]: ✦
+        - generic [aria-hidden]: ✦
+        - generic [aria-hidden]: ★
+        - generic [ref=e630]:
+          - generic [ref=e631]:
+            - generic [ref=e632]: Agency Leadership Portal
+            - heading "Become a Chamet Agency Leader, Build Your Team, Earn with Chamet" [level=1] [ref=e635]
+            - paragraph [ref=e636]: Partner with Chamet as an agency leader and take charge of your own livestream talent team. Expand your reach by bringing in new hosts and sub‑agents, and watch your commission potential rise as your agency grows
+            - link "Become an Agency" [ref=e638] [cursor=pointer]:
+              - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+          - generic [ref=e642]:
+            - generic [aria-hidden]:
+              - generic:
+                - img:
+                  - generic: $
+            - 'link "View full image: Chamet Agency team leaders and live stream creators" [ref=e644]':
+              - /url: asset/hero-page-agent.png
+              - img "Chamet Agency team leaders and live stream creators community" [ref=e645]
+      - generic [ref=e647]:
+        - generic [ref=e648]:
+          - generic [ref=e649]:
+            - generic [ref=e650]: Agency Overview
+            - heading "What is Chamet Agency" [level=2] [ref=e651]
+          - generic [ref=e652]:
+            - paragraph [ref=e653]: "A Chamet agency lets you create and build your own network by inviting hosts and sub‑agents. Your job goes beyond recruitment: you'll mentor newcomers, keep tabs on the team, and help your team succeed."
+            - paragraph [ref=e654]: The more your team earns, the higher your percentage‑based commissions climb. Every new host you bring in strengthens your earning foundation, and every sub‑agent you recruit multiplies your reach.
+        - generic [ref=e655]:
+          - 'link "View full image: Chamet Agent Role" [ref=e658]':
+            - /url: https://chametagent.com/wp-content/uploads/2026/10/Chamet-Agent-Role.png
+            - img "Chamet Agent Role" [ref=e659]
+            - generic [aria-hidden]:
+              - generic: Zoom
+          - generic [ref=e660]:
+            - generic [ref=e666]:
+              - heading "Team Expansion" [level=3] [ref=e667]
+              - paragraph [ref=e668]: Bring in new hosts and sub‑agents using
+            - generic [ref=e673]:
+              - heading "Host Mentorship" [level=3] [ref=e674]
+              - paragraph [ref=e675]: Onboard and train fresh host members to get them streaming quickly
+            - generic [ref=e680]:
+              - heading "Dashboard Management" [level=3] [ref=e681]
+              - paragraph [ref=e682]: Track team performance and daily activity through your dashboard
+            - generic [ref=e688]:
+              - heading "Maximize Revenue" [level=3] [ref=e689]
+              - paragraph [ref=e690]: Assist hosts with completing tasks and platform initiatives to maximize their earnings
+      - generic [ref=e692]:
+        - generic [ref=e693]:
+          - generic [ref=e694]: Agency Privileges
+          - heading "Exclusive Perks for Chamet Agency Partners" [level=2] [ref=e695]
+        - generic [ref=e696]:
+          - generic [ref=e697]:
+            - heading "Global Withdrawal Flexibility" [level=3] [ref=e702]
+            - paragraph [ref=e703]: Withdraw out via local bank transfers, digital wallets, crypto, and more, withdrawing your earnings is fast and straightforward, no matter where you're located.
+          - generic [ref=e704]:
+            - heading "Weekly Commission Opportunity" [level=3] [ref=e709]
+            - paragraph [ref=e710]: Boost your income every week simply by increasing your team's total revenue. More earnings for your hosts and sub‑agents means more rewards for you—on a rolling weekly basis.
+          - generic [ref=e711]:
+            - heading "Climb the Commission Ladder" [level=3] [ref=e716]
+            - paragraph [ref=e717]: Earn from 5% up to 30% based on your hosts' and sub‑agents' combined performance. Each month brings a fresh opportunity to move up to a higher rate as your team's 30‑day revenue grows
+      - generic [ref=e719]:
+        - generic [ref=e720]:
+          - generic [ref=e721]: Quick Onboarding
+          - heading "How to Start Your Chamet Agency" [level=2] [ref=e722]
+        - generic [ref=e723]:
+          - generic [ref=e724]:
+            - generic [ref=e725]: "1"
+            - generic [ref=e726]:
+              - heading "Start the Pre‑Registration Process" [level=3] [ref=e727]
+              - generic [ref=e728]:
+                - generic [ref=e729]: ✓ 1. Open the agency registration link to begin.
+                - generic [ref=e730]: ✓ 2. Provide your phone number with the correct country code. Tap "Send" to receive an SMS verification code, then enter it.
+                - generic [ref=e731]: ✓ 3. Create a strong password and type it again to confirm.
+          - generic [ref=e732]:
+            - generic [ref=e733]: "2"
+            - generic [ref=e734]:
+              - heading "Log In to Your Dashboard" [level=3] [ref=e735]
+              - paragraph [ref=e736]: Open the agency dashboard link. Sign in using the phone number and password you just registered.
+          - generic [ref=e737]:
+            - generic [ref=e738]: "3"
+            - generic [ref=e739]:
+              - heading "Complete Your Profile Details" [level=3] [ref=e740]
+              - paragraph [ref=e741]: "Fill in the following information to finalize your agency profile:"
+              - generic [ref=e742]:
+                - generic [ref=e743]: ✓ Phone number
+                - generic [ref=e744]: ✓ WhatsApp number
+                - generic [ref=e745]: ✓ Telegram link
+                - generic [ref=e746]: ✓ Facebook link
+          - generic [ref=e747]:
+            - generic [ref=e748]: "4"
+            - generic [ref=e749]:
+              - heading "You're All Set!" [level=3] [ref=e750]
+              - paragraph [ref=e751]: Once everything is verified and submitted, your Chamet agency journey officially begins. You can now start recruiting hosts and sub‑agents immediately.
+      - generic [ref=e753]:
+        - generic [ref=e754]:
+          - generic [ref=e755]: Tiered Revenue
+          - heading "Chamet Agency Commission Tiers" [level=2] [ref=e756]
+          - paragraph [ref=e757]: Your commission percentage is calculated based on the combined 30‑day revenue of your hosts and sub‑agents. Higher team earnings unlock better rates, giving you a clear path to scale your income.
+        - table [ref=e759]:
+          - rowgroup [ref=e760]:
+            - row [ref=e761]:
+              - columnheader "Class" [ref=e762]
+              - columnheader "Total Earnings (last 30 days)" [ref=e763]
+              - columnheader "Commission Rate" [ref=e764]
+          - rowgroup [ref=e765]:
+            - row [ref=e766]:
+              - cell [ref=e767]:
+                - strong [ref=e768]: A
+              - cell "USD ≥ 500" [ref=e769]
+              - cell "5%" [ref=e770]
+            - row [ref=e772]:
+              - cell [ref=e773]:
+                - strong [ref=e774]: B
+              - cell "USD 1,500" [ref=e775]
+              - cell "10%" [ref=e776]
+            - row [ref=e778]:
+              - cell [ref=e779]:
+                - strong [ref=e780]: C
+              - cell "USD 5,000" [ref=e781]
+              - cell "15%" [ref=e782]
+            - row [ref=e784]:
+              - cell [ref=e785]:
+                - strong [ref=e786]: D
+              - cell "USD 15,000" [ref=e787]
+              - cell "18%" [ref=e788]
+            - row [ref=e790]:
+              - cell [ref=e791]:
+                - strong [ref=e792]: E
+              - cell "USD 50,000" [ref=e793]
+              - cell "20%" [ref=e794]
+            - row [ref=e796]:
+              - cell [ref=e797]:
+                - strong [ref=e798]: F
+              - cell "USD 150,000" [ref=e799]
+              - cell "22%" [ref=e800]
+            - row [ref=e802]:
+              - cell [ref=e803]:
+                - strong [ref=e804]: G
+              - cell "USD 500,000" [ref=e805]
+              - cell "24%" [ref=e806]
+            - row [ref=e808]:
+              - cell [ref=e809]:
+                - strong [ref=e810]: H
+              - cell "USD 1,500,000" [ref=e811]
+              - cell "26%" [ref=e812]
+            - row [ref=e814]:
+              - cell [ref=e815]:
+                - strong [ref=e816]: K
+              - cell "USD 5,000,000" [ref=e817]
+              - cell "30%" [ref=e818]
+        - generic [ref=e820]:
+          - strong [ref=e821]: "Notes:"
+          - text: For new agents active less than 30 days, the daily rate is based on total earnings from registration day up to yesterday.
+        - heading "Chamet Earning System" [level=3] [ref=e823]
+        - 'link "View full image: Chamet Commission System" [ref=e826]':
+          - /url: https://chametagent.com/wp-content/uploads/2026/10/Chamet-Commission-System.png
+          - img "Chamet Commission System" [ref=e827]
+          - generic [aria-hidden]:
+            - generic: Zoom
+      - generic [ref=e829]:
+        - generic [ref=e830]:
+          - generic [ref=e831]: Scenario Analysis
+          - heading "Commission Examples for Agency" [level=2] [ref=e832]
+        - generic [ref=e833]:
+          - generic [ref=e834]:
+            - generic [ref=e835]: Sub-Agent Network
+            - heading "Agency with Sub-Agents Only" [level=3] [ref=e836]
+            - paragraph [ref=e837]: This scenario illustrates how a main agent earns from the performance of sub‑agents under them. Each sub‑agent runs their own team, and the main agent gets a percentage cut based on the overall commission structure, even without directly managing hosts themselves.
+          - generic [ref=e838]:
+            - generic [ref=e839]: Hybrid Team
+            - heading "Agency with Hosts + Sub‑Agents" [level=3] [ref=e840]
+            - paragraph [ref=e841]: Here, the agent earns directly from hosts they personally recruited, plus earnings from sub‑agents. Both contribute to the agency's total revenue and determine the agent's commission tier.
+      - generic [ref=e843]:
+        - generic [ref=e844]:
+          - generic [ref=e845]: Compliance & Policy
+          - heading "Rules for Chamet Agency" [level=2] [ref=e846]
+          - paragraph [ref=e847]: Review these rules before launching your agency to ensure smooth, compliant operations and protect your earnings.
+        - generic [ref=e848]:
+          - generic [ref=e849]:
+            - generic [aria-hidden] [ref=e850]: ✕
+            - paragraph [ref=e851]: Never recruit hosts who are already active under another Chamet agency
+          - generic [ref=e852]:
+            - generic [aria-hidden] [ref=e853]: ✓
+            - paragraph [ref=e854]: Only work with hosts who are of legal age
+          - generic [ref=e855]:
+            - generic [aria-hidden] [ref=e856]: ✓
+            - paragraph [ref=e857]: Always provide truthful and complete host details
+          - generic [ref=e858]:
+            - generic [aria-hidden] [ref=e859]: ✕
+            - paragraph [ref=e860]: Don't persuade Chamet hosts to leave for another platforms
+          - generic [ref=e861]:
+            - generic [aria-hidden] [ref=e862]: ✓
+            - paragraph [ref=e863]: Never deduct from your hosts' earnings. Your commission is paid separately by Chamet
+      - generic [ref=e866]:
+        - generic [ref=e867]:
+          - generic [ref=e868]: Host Recruitment
+          - heading "Inviting a Host to Your Chamet Agency" [level=2] [ref=e869]
+          - generic [ref=e870]:
+            - generic [ref=e871]:
+              - generic [ref=e872]: "1"
+              - paragraph [ref=e874]: Sign in to your agency dashboard
+            - generic [ref=e875]:
+              - generic [ref=e876]: "2"
+              - paragraph [ref=e878]: Click "Invitation Link for Chamet Host"
+            - generic [ref=e879]:
+              - generic [ref=e880]: "3"
+              - paragraph [ref=e882]: Copy the link and send it to the host you wish to recruit
+        - 'link "View full image: Add New Host as Agent" [ref=e885]':
+          - /url: https://chametagent.com/wp-content/uploads/2026/10/Add-New-Host-as-Agent.png
+          - img "Add New Host as Agent" [ref=e886]
+          - generic [aria-hidden]:
+            - generic: Zoom
+      - generic [ref=e889]:
+        - generic [ref=e890]:
+          - generic [ref=e891]: Sub-Agency Recruitment
+          - heading "Inviting a Sub‑Agent to Your Chamet Agency" [level=2] [ref=e892]
+          - generic [ref=e893]:
+            - generic [ref=e894]:
+              - generic [ref=e895]: "1"
+              - paragraph [ref=e897]: Log in to your dashboard
+            - generic [ref=e898]:
+              - generic [ref=e899]: "2"
+              - paragraph [ref=e901]: Click "Invitation Link for Chamet Agent"
+            - generic [ref=e902]:
+              - generic [ref=e903]: "3"
+              - paragraph [ref=e905]: Copy the link and share it with your potential sub‑agent
+        - 'link "View full image: Add Sub-agents as Agents" [ref=e908]':
+          - /url: https://chametagent.com/wp-content/uploads/2026/10/Add-Sub-agents-as-Agents.png
+          - img "Add Sub-agents as Agents" [ref=e909]
+          - generic [aria-hidden]:
+            - generic: Zoom
+      - generic [ref=e912]:
+        - generic [ref=e913]:
+          - generic [ref=e914]: App MetWallet Binding
+          - heading "Linking MetWallet in the Chamet App" [level=2] [ref=e915]
+          - generic [ref=e916]:
+            - generic [ref=e917]:
+              - generic [ref=e918]: "1"
+              - paragraph [ref=e920]: Open the Chamet Live app
+            - generic [ref=e921]:
+              - generic [ref=e922]: "2"
+              - paragraph [ref=e924]: Go to Profile → "My Beans"
+            - generic [ref=e925]:
+              - generic [ref=e926]: "3"
+              - paragraph [ref=e928]: Tap the "Withdraw" section
+            - generic [ref=e929]:
+              - generic [ref=e930]: "4"
+              - paragraph [ref=e932]: Select "Face Verification" and complete it
+            - generic [ref=e933]:
+              - generic [ref=e934]: "5"
+              - paragraph [ref=e936]: After verification, tap "Go to MetWallet"
+            - generic [ref=e937]:
+              - generic [ref=e938]: "6"
+              - paragraph [ref=e940]: Enter your active email address
+            - generic [ref=e941]:
+              - generic [ref=e942]: "7"
+              - paragraph [ref=e944]: Check your email for a verification code and enter it
+            - generic [ref=e945]:
+              - generic [ref=e946]: "8"
+              - paragraph [ref=e948]: Set up a password for your MetWallet
+            - generic [ref=e949]:
+              - generic [ref=e950]: "9"
+              - paragraph [ref=e952]: Tap "Authorize" to finalise
+        - 'link "View full image: Add MetWallet via App" [ref=e955]':
+          - /url: https://chametagent.com/wp-content/uploads/2026/10/Add-MetWallet-via-App.png
+          - img "Add MetWallet via App" [ref=e956]
+          - generic [aria-hidden]:
+            - generic: Zoom
+      - generic [ref=e958]:
+        - generic [ref=e959]:
+          - generic [ref=e960]: MetWallet KYC & Verification
+          - heading "How to Withdraw on MetWallet" [level=2] [ref=e961]
+          - paragraph [ref=e962]: After linking MetWallet and reaching the minimum withdrawal requirement, finish these steps to enable withdrawal on MetWallet.
+        - 'link "View full image: How to Withdraw" [ref=e965]':
+          - /url: https://chametagent.com/wp-content/uploads/2026/10/How-to-Withdraw.png
+          - img "How to Withdraw on MetWallet" [ref=e966]
+          - generic [aria-hidden]:
+            - generic: Zoom
+        - generic [ref=e967]:
+          - generic [ref=e968]:
+            - generic [ref=e969]: "1"
+            - paragraph [ref=e971]: Open your wallet and tap "MetWallet"
+          - generic [ref=e972]:
+            - generic [ref=e973]: "2"
+            - paragraph [ref=e975]: Click on "Basic Level"
+          - generic [ref=e976]:
+            - generic [ref=e977]: "3"
+            - generic [ref=e978]:
+              - paragraph [ref=e979]: "Fill in all requested details:"
+              - generic [ref=e980]:
+                - generic [ref=e981]: ✓ First name
+                - generic [ref=e982]: ✓ Middle name
+                - generic [ref=e983]: ✓ Last name
+                - generic [ref=e984]: ✓ Gender
+                - generic [ref=e985]: ✓ Year of birth
+                - generic [ref=e986]: ✓ Email
+                - generic [ref=e987]: ✓ Residential address
+          - generic [ref=e988]:
+            - generic [ref=e989]: "4"
+            - paragraph [ref=e991]: Move to "Semi‑Verified" and upload a photo of your ID card
+          - generic [ref=e992]:
+            - generic [ref=e993]: "5"
+            - generic [ref=e994]:
+              - paragraph [ref=e995]: "Submit supporting documents, such as:"
+              - generic [ref=e996]:
+                - generic [ref=e997]: ✓ Utility bills (electricity, water, internet)
+                - generic [ref=e998]: ✓ Proof of residence
+                - generic [ref=e999]: ✓ Bank account statement
+      - generic [ref=e1002]:
+        - generic [ref=e1003]:
+          - generic [ref=e1004]: Dashboard Binding
+          - heading "Linking MetWallet in the Chamet Agency dashboard" [level=2] [ref=e1005]
+          - generic [ref=e1006]:
+            - generic [ref=e1007]:
+              - generic [ref=e1008]: "1"
+              - paragraph [ref=e1010]: Log in to the agency dashboard
+            - generic [ref=e1011]:
+              - generic [ref=e1012]: "2"
+              - paragraph [ref=e1014]: Navigate to "My Profile"
+            - generic [ref=e1015]:
+              - generic [ref=e1016]: "3"
+              - paragraph [ref=e1018]: Click "Bind Wallet"
+            - generic [ref=e1019]:
+              - generic [ref=e1020]: "4"
+              - paragraph [ref=e1022]: Select the "Email" option
+            - generic [ref=e1023]:
+              - generic [ref=e1024]: "5"
+              - paragraph [ref=e1026]: Register your active email address
+            - generic [ref=e1027]:
+              - generic [ref=e1028]: "6"
+              - paragraph [ref=e1030]: Retrieve the verification code from your email and enter it
+            - generic [ref=e1031]:
+              - generic [ref=e1032]: "7"
+              - paragraph [ref=e1034]: Input your registered password
+            - generic [ref=e1035]:
+              - generic [ref=e1036]: "8"
+              - paragraph [ref=e1038]: Click "Authorize"
+            - generic [ref=e1039]:
+              - generic [ref=e1040]: "9"
+              - paragraph [ref=e1042]: Log out and back in to apply the changes
+        - 'link "View full image: Add MetWallet via Agent Dashboard" [ref=e1045]':
+          - /url: https://chametagent.com/wp-content/uploads/2026/10/Add-MetWallet-via-Agent-Dashboard.png
+          - img "Add MetWallet via Agent Dashboard" [ref=e1046]
+          - generic [aria-hidden]:
+            - generic: Zoom
+      - generic [ref=e1048]:
+        - generic [ref=e1049]:
+          - generic [ref=e1050]: Agency FAQs
+          - heading "Frequently Asked Questions" [level=2] [ref=e1051]
+        - generic [ref=e1052]:
+          - generic [ref=e1053]:
+            - button "How much commission can a Chamet agent earn?" [ref=e1054] [cursor=pointer]
+            - paragraph [ref=e1060]: Your commission rate ranges from 5% to 30% of your team's total earnings. The more your team earns, the higher your percentage climbs.
+          - generic [ref=e1061]:
+            - button "What does a Chamet agent actually do?" [ref=e1062] [cursor=pointer]
+            - paragraph [ref=e1068]: You're responsible for mentoring your hosts and sub‑agents, keeping them updated on platform events, and continuously expanding your network. Your success is directly tied to theirs.
+          - generic [ref=e1069]:
+            - button "Can I recruit from other agencies?" [ref=e1070] [cursor=pointer]
+            - paragraph [ref=e1076]: No. Hosts and sub‑agents must first leave their existing agency before they can join yours. Poaching active members is strictly prohibited.
+          - generic [ref=e1077]:
+            - button "What do I need to start my agency?" [ref=e1078] [cursor=pointer]
+            - paragraph [ref=e1084]: Just a verified phone number to begin recruiting. To withdraw funds, you'll need to attach a verified MetWallet to your profile, but there's no cost to register or start building your team.
+          - generic [ref=e1085]:
+            - button "Is the Chamet commission system secure?" [ref=e1086] [cursor=pointer]
+            - paragraph [ref=e1092]: Absolutely. Chamet has over 50M Play Store downloads and a global user base. You never pay to withdraw, just meet the requirements and Chamet sends your rightful commission directly to your wallet.
+          - generic [ref=e1093]:
+            - button "Where can I get help if something goes wrong?" [ref=e1094] [cursor=pointer]
+            - paragraph [ref=e1100]: Contact our support team, we'll connect you with platform admins to resolve any issue quickly. Your data, team info, and payment details stay fully private at all times.
+      - generic [ref=e1104]:
+        - heading "Launch & Grow Your Chamet Agency Today" [level=2] [ref=e1105]
+        - paragraph [ref=e1106]: Start your agency with a simple setup and full guidance from us. Instantly access all the tools you need to scale your business, recruitment links, performance dashboards, commission tracking, and secure withdrawal all in one place.
+        - generic [ref=e1107]:
+          - link "Become an Agency" [ref=e1108] [cursor=pointer]:
+            - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+          - link "Want to Become a Host?" [ref=e1112] [cursor=pointer]:
+            - /url: /host
+      - dialog [aria-hidden]:
+        - button
+    - main [ref=e1116]:
+      - generic [ref=e1118]:
+        - generic [ref=e1119]:
+          - generic [ref=e1120]: Support & Knowledge Hub
+          - heading "Chamet Agency FAQs & Rules" [level=1] [ref=e1126]
+          - paragraph [ref=e1127]: Let’s answer the common questions regarding Chamet agency and the withdrawal process.
+          - link "Contact Live Support" [ref=e1129] [cursor=pointer]:
+            - /url: https://t.me/chametsupport
+        - 'link "View full image: Chamet Agency FAQs & Support illustration" [ref=e1135]':
+          - /url: asset/faq-hero.png
+          - img "Chamet Agency FAQs and official support illustration" [ref=e1136]
+      - generic [ref=e1138]:
+        - generic [ref=e1139]:
+          - paragraph [ref=e1144]: CHOOSE YOUR PATH
+          - heading "Start with the question closest to you." [level=2] [ref=e1148]
+          - paragraph [ref=e1149]: Explore the Chamet help center by topic, then open any question for its complete answer and related guidance.
+        - navigation "FAQ categories" [ref=e1150]:
+          - link "01 / CATEGORY General Questions Answers to questions regarding Chamet platform in general 8 questions" [ref=e1151] [cursor=pointer]:
+            - /url: /faq-general
+            - generic [ref=e1152]:
+              - generic [ref=e1153]: 01 / CATEGORY
+              - generic [aria-hidden] [ref=e1159]: ↗
+            - generic [ref=e1160]: General Questions
+            - generic [ref=e1161]: Answers to questions regarding Chamet platform in general
+            - generic [ref=e1162]:
+              - generic [ref=e1163]: 8 questions
+              - generic [aria-hidden] [ref=e1164]: →
+          - link "02 / CATEGORY Chamet App & Account Answers to Chamet registration, account details and deletion information 11 questions" [ref=e1165] [cursor=pointer]:
+            - /url: /faq-app-account
+            - generic [ref=e1166]:
+              - generic [ref=e1167]: 02 / CATEGORY
+              - generic [aria-hidden] [ref=e1172]: ↗
+            - generic [ref=e1173]: Chamet App & Account
+            - generic [ref=e1174]: Answers to Chamet registration, account details and deletion information
+            - generic [ref=e1175]:
+              - generic [ref=e1176]: 11 questions
+              - generic [aria-hidden] [ref=e1177]: →
+          - link "03 / CATEGORY Chamet Live Rules & Content Safety guidelines, moderation standards, and report procedures 8 questions" [ref=e1178] [cursor=pointer]:
+            - /url: /faq-live-rules
+            - generic [ref=e1179]:
+              - generic [ref=e1180]: 03 / CATEGORY
+              - generic [aria-hidden] [ref=e1185]: ↗
+            - generic [ref=e1186]: Chamet Live Rules & Content
+            - generic [ref=e1187]: Safety guidelines, moderation standards, and report procedures
+            - generic [ref=e1188]:
+              - generic [ref=e1189]: 8 questions
+              - generic [aria-hidden] [ref=e1190]: →
+          - link "04 / CATEGORY Chamet Agency Withdrawal Questions & Help Answers regarding withdrawal requirements, issues, account help, and troubleshooting 9 questions" [ref=e1191] [cursor=pointer]:
+            - /url: /faq-withdrawal
+            - generic [ref=e1192]:
+              - generic [ref=e1193]: 04 / CATEGORY
+              - generic [aria-hidden] [ref=e1198]: ↗
+            - generic [ref=e1199]: Chamet Agency Withdrawal Questions & Help
+            - generic [ref=e1200]: Answers regarding withdrawal requirements, issues, account help, and troubleshooting
+            - generic [ref=e1201]:
+              - generic [ref=e1202]: 9 questions
+              - generic [aria-hidden] [ref=e1203]: →
+          - link "05 / CATEGORY Chamet Agency Answers to questions regarding Chamet agency 12 questions" [ref=e1204] [cursor=pointer]:
+            - /url: /faq-agency
+            - generic [ref=e1205]:
+              - generic [ref=e1206]: 05 / CATEGORY
+              - generic [aria-hidden] [ref=e1214]: ↗
+            - generic [ref=e1215]: Chamet Agency
+            - generic [ref=e1216]: Answers to questions regarding Chamet agency
+            - generic [ref=e1217]:
+              - generic [ref=e1218]: 12 questions
+              - generic [aria-hidden] [ref=e1219]: →
+        - paragraph [ref=e1220]:
+          - generic [aria-hidden] [ref=e1221]: ↓
+          - text: SCROLL TO EXPLORE
+          - generic [aria-hidden] [ref=e1222]: ·
+          - text: ASK. LEARN. CONNECT.
+      - generic [ref=e1226]:
+        - heading "Ready to Stream or Build Your Agency? Start Earning Right Now" [level=2] [ref=e1227]
+        - paragraph [ref=e1228]: Join millions active users on Chamet. Go live as a host and earn from your interactions, or launch your own agency and profit from your team's growth. No fees, no paperwork, just real opportunities.
+        - generic [ref=e1229]:
+          - link "Become a Host" [ref=e1230] [cursor=pointer]:
+            - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+          - link "Become an Agent" [ref=e1234] [cursor=pointer]:
+            - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+    - contentinfo [ref=e1239]:
+      - generic [ref=e1240]:
+        - generic [ref=e1241]:
+          - generic [ref=e1242]:
+            - link "Chamet Agency" [ref=e1243] [cursor=pointer]:
+              - /url: /
+              - img "Chamet Agency Logo" [ref=e1244]
+              - generic [ref=e1245]: ChametAgency
+            - paragraph [ref=e1246]: Official partner agency for Chamet livestreaming ecosystem. Empowering creators and agency leaders worldwide with dedicated mentorship, 24/7 support, and transparent weekly earnings.
+          - generic [ref=e1247]:
+            - heading "Quick Links" [level=3] [ref=e1248]
+            - list [ref=e1249]:
+              - listitem [ref=e1250]:
+                - link "Home" [ref=e1251] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e1252]:
+                - link "Host" [ref=e1253] [cursor=pointer]:
+                  - /url: /host
+              - listitem [ref=e1254]:
+                - link "Agent" [ref=e1255] [cursor=pointer]:
+                  - /url: /agent
+              - listitem [ref=e1256]:
+                - link "FAQ" [ref=e1257] [cursor=pointer]:
+                  - /url: /faq
+          - generic [ref=e1258]:
+            - heading "Official Community" [level=3] [ref=e1259]
+            - generic [ref=e1260]:
+              - link "Follow Chamet on Instagram" [ref=e1261] [cursor=pointer]:
+                - /url: https://www.instagram.com/chametindonesia/
+                - generic [ref=e1266]: Instagram Chamet
+              - link "Contact Chamet Support on Telegram" [ref=e1267] [cursor=pointer]:
+                - /url: https://t.me/chametsupport/
+                - generic [ref=e1271]: Telegram Chamet
+        - generic [ref=e1272]:
+          - paragraph [ref=e1273]: © 2026 pchametagency.id. All rights reserved.
+          - paragraph [ref=e1274]: Official Agency Recruitment & Management Portal
+  - dialog [aria-hidden]:
+    - generic:
+      - button: ×

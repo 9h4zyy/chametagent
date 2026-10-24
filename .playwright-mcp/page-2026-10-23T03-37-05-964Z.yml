@@ -1,0 +1,150 @@
+- generic [active] [ref=f1e1]:
+  - generic:
+    - banner:
+      - generic [ref=f1e2]:
+        - link "Chamet Agency Home" [ref=f1e3] [cursor=pointer]:
+          - /url: /
+          - img "Chamet Agency Logo" [ref=f1e4]
+          - generic [ref=f1e5]: Chamet
+        - navigation "Main Navigation" [ref=f1e6]:
+          - link "Home" [ref=f1e7] [cursor=pointer]:
+            - /url: /
+          - link "Host" [ref=f1e8] [cursor=pointer]:
+            - /url: /host
+          - link "Agent" [ref=f1e9] [cursor=pointer]:
+            - /url: /agent
+          - link "FAQ" [ref=f1e10] [cursor=pointer]:
+            - /url: /faq
+        - generic [ref=f1e11]:
+          - link "Join Host" [ref=f1e12] [cursor=pointer]:
+            - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+          - link "Start Agency" [ref=f1e14] [cursor=pointer]:
+            - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+  - main [ref=f1e16]:
+    - generic [ref=f1e17]:
+      - generic [aria-hidden]: ✦
+      - generic [aria-hidden]: ✦
+      - generic [aria-hidden]: ★
+      - generic [ref=f1e18]:
+        - generic [ref=f1e19]:
+          - generic [ref=f1e20]: Support & Knowledge Hub
+          - heading "Chamet Agency FAQs & Rules" [level=1] [ref=f1e26]
+          - paragraph [ref=f1e27]: Let’s answer the common questions regarding Chamet agency and the withdrawal process.
+          - link "Contact Live Support" [ref=f1e29] [cursor=pointer]:
+            - /url: https://t.me/chametsupport
+        - generic [ref=f1e33]:
+          - generic [ref=f1e39]:
+            - generic [ref=f1e40]: 48+ Answers
+            - generic [ref=f1e41]: Verified FAQ & Rules
+          - generic [ref=f1e48]:
+            - generic [ref=f1e49]: 24/7 Live Desk
+            - generic [ref=f1e50]: Official Support Help
+          - generic [ref=f1e51]: Official Support Desk Live
+          - 'link "View full image: Chamet Agency FAQs & Support illustration" [ref=f1e55]':
+            - /url: asset/faq-hero.png
+            - img "Chamet Agency FAQs and official support illustration" [ref=f1e56]
+    - generic [ref=f1e58]:
+      - generic [ref=f1e59]:
+        - paragraph [ref=f1e64]: CHOOSE YOUR PATH
+        - heading "Start with the question closest to you." [level=2] [ref=f1e68]
+        - paragraph [ref=f1e69]: Explore the Chamet help center by topic, then open any question for its complete answer and related guidance.
+      - navigation "FAQ categories" [ref=f1e70]:
+        - link "01 / CATEGORY General Questions Answers to questions regarding Chamet platform in general 8 questions" [ref=f1e71] [cursor=pointer]:
+          - /url: /faq-general
+          - generic [ref=f1e72]:
+            - generic [ref=f1e73]: 01 / CATEGORY
+            - generic [aria-hidden] [ref=f1e79]: ↗
+          - generic [ref=f1e80]: General Questions
+          - generic [ref=f1e81]: Answers to questions regarding Chamet platform in general
+          - generic [ref=f1e82]:
+            - generic [ref=f1e83]: 8 questions
+            - generic [aria-hidden] [ref=f1e84]: →
+        - link "02 / CATEGORY Chamet App & Account Answers to Chamet registration, account details and deletion information 11 questions" [ref=f1e85] [cursor=pointer]:
+          - /url: /faq-app-account
+          - generic [ref=f1e86]:
+            - generic [ref=f1e87]: 02 / CATEGORY
+            - generic [aria-hidden] [ref=f1e92]: ↗
+          - generic [ref=f1e93]: Chamet App & Account
+          - generic [ref=f1e94]: Answers to Chamet registration, account details and deletion information
+          - generic [ref=f1e95]:
+            - generic [ref=f1e96]: 11 questions
+            - generic [aria-hidden] [ref=f1e97]: →
+        - link "03 / CATEGORY Chamet Live Rules & Content Safety guidelines, moderation standards, and report procedures 8 questions" [ref=f1e98] [cursor=pointer]:
+          - /url: /faq-live-rules
+          - generic [ref=f1e99]:
+            - generic [ref=f1e100]: 03 / CATEGORY
+            - generic [aria-hidden] [ref=f1e105]: ↗
+          - generic [ref=f1e106]: Chamet Live Rules & Content
+          - generic [ref=f1e107]: Safety guidelines, moderation standards, and report procedures
+          - generic [ref=f1e108]:
+            - generic [ref=f1e109]: 8 questions
+            - generic [aria-hidden] [ref=f1e110]: →
+        - link "04 / CATEGORY Chamet Agency Withdrawal Questions & Help Answers regarding withdrawal requirements, issues, account help, and troubleshooting 9 questions" [ref=f1e111] [cursor=pointer]:
+          - /url: /faq-withdrawal
+          - generic [ref=f1e112]:
+            - generic [ref=f1e113]: 04 / CATEGORY
+            - generic [aria-hidden] [ref=f1e118]: ↗
+          - generic [ref=f1e119]: Chamet Agency Withdrawal Questions & Help
+          - generic [ref=f1e120]: Answers regarding withdrawal requirements, issues, account help, and troubleshooting
+          - generic [ref=f1e121]:
+            - generic [ref=f1e122]: 9 questions
+            - generic [aria-hidden] [ref=f1e123]: →
+        - link "05 / CATEGORY Chamet Agency Answers to questions regarding Chamet agency 12 questions" [ref=f1e124] [cursor=pointer]:
+          - /url: /faq-agency
+          - generic [ref=f1e125]:
+            - generic [ref=f1e126]: 05 / CATEGORY
+            - generic [aria-hidden] [ref=f1e134]: ↗
+          - generic [ref=f1e135]: Chamet Agency
+          - generic [ref=f1e136]: Answers to questions regarding Chamet agency
+          - generic [ref=f1e137]:
+            - generic [ref=f1e138]: 12 questions
+            - generic [aria-hidden] [ref=f1e139]: →
+      - paragraph [ref=f1e140]:
+        - generic [aria-hidden] [ref=f1e141]: ↓
+        - text: SCROLL TO EXPLORE
+        - generic [aria-hidden] [ref=f1e142]: ·
+        - text: ASK. LEARN. CONNECT.
+    - generic [ref=f1e146]:
+      - heading "Ready to Stream or Build Your Agency? Start Earning Right Now" [level=2] [ref=f1e147]
+      - paragraph [ref=f1e148]: Join millions active users on Chamet. Go live as a host and earn from your interactions, or launch your own agency and profit from your team's growth. No fees, no paperwork, just real opportunities.
+      - generic [ref=f1e149]:
+        - link "Become a Host" [ref=f1e150] [cursor=pointer]:
+          - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+        - link "Become an Agent" [ref=f1e154] [cursor=pointer]:
+          - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+  - contentinfo [ref=f1e159]:
+    - generic [ref=f1e160]:
+      - generic [ref=f1e161]:
+        - generic [ref=f1e162]:
+          - link "Chamet Agency" [ref=f1e163] [cursor=pointer]:
+            - /url: /
+            - img "Chamet Agency Logo" [ref=f1e164]
+            - generic [ref=f1e165]: ChametAgency
+          - paragraph [ref=f1e166]: Official partner agency for Chamet livestreaming ecosystem. Empowering creators and agency leaders worldwide with dedicated mentorship, 24/7 support, and transparent weekly earnings.
+        - generic [ref=f1e167]:
+          - heading "Quick Links" [level=3] [ref=f1e168]
+          - list [ref=f1e169]:
+            - listitem [ref=f1e170]:
+              - link "Home" [ref=f1e171] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f1e172]:
+              - link "Host" [ref=f1e173] [cursor=pointer]:
+                - /url: /host
+            - listitem [ref=f1e174]:
+              - link "Agent" [ref=f1e175] [cursor=pointer]:
+                - /url: /agent
+            - listitem [ref=f1e176]:
+              - link "FAQ" [ref=f1e177] [cursor=pointer]:
+                - /url: /faq
+        - generic [ref=f1e178]:
+          - heading "Official Community" [level=3] [ref=f1e179]
+          - generic [ref=f1e180]:
+            - link "Follow Chamet on Instagram" [ref=f1e181] [cursor=pointer]:
+              - /url: https://www.instagram.com/chametindonesia/
+              - generic [ref=f1e186]: Instagram Chamet
+            - link "Contact Chamet Support on Telegram" [ref=f1e187] [cursor=pointer]:
+              - /url: https://t.me/chametsupport/
+              - generic [ref=f1e191]: Telegram Chamet
+      - generic [ref=f1e192]:
+        - paragraph [ref=f1e193]: © 2026 pchametagency.id. All rights reserved.
+        - paragraph [ref=f1e194]: Official Agency Recruitment & Management Portal

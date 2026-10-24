@@ -1,0 +1,210 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - banner:
+      - generic [ref=e2]:
+        - link "Chamet Agency Home" [ref=e3] [cursor=pointer]:
+          - /url: /
+          - img "Chamet Agency Logo" [ref=e4]
+          - generic [ref=e5]: Chamet
+        - navigation "Main Navigation" [ref=e6]:
+          - link "Home" [ref=e7] [cursor=pointer]:
+            - /url: /
+          - link "Host" [ref=e8] [cursor=pointer]:
+            - /url: /host
+          - link "Agent" [ref=e9] [cursor=pointer]:
+            - /url: /agent
+          - link "FAQ" [ref=e10] [cursor=pointer]:
+            - /url: /faq
+        - generic [ref=e11]:
+          - link "Join Host" [ref=e12] [cursor=pointer]:
+            - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+          - link "Start Agency" [ref=e14] [cursor=pointer]:
+            - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - generic [aria-hidden]: ✦
+      - generic [aria-hidden]: ✦
+      - generic [aria-hidden]: ★
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - generic [ref=e20]: Chamet Host Talent Portal
+          - heading "Become a Chamet Live Host Superstar" [level=1] [ref=e23]
+          - paragraph [ref=e24]: Step into the spotlight as an official Chamet host with an experienced agency support to guide you. Build your presence, collect gifts, and start earning. Whether you're new or looking to grow, Chamet welcomes you.
+          - link "Become a Host" [ref=e26] [cursor=pointer]:
+            - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+        - generic [ref=e30]:
+          - generic "Live Audience Love Reaction" [ref=e31] [cursor=pointer]:
+            - img "Heart eyes live stream love reaction emoticon" [ref=e32]
+          - generic "Superstar Host Crown" [ref=e48] [cursor=pointer]:
+            - img "Superstar crown live host reaction emoticon" [ref=e49]
+          - generic [ref=e74]: 24/7 Agency Mentorship
+          - 'link "View full image: Chamet host livestream hero illustration" [ref=e78]':
+            - /url: https://chametagent.com/wp-content/uploads/2026/10/fix-host-.svg
+            - img "Chamet host livestream hero illustration" [ref=e79]
+            - generic [aria-hidden]:
+              - generic: Zoom
+    - generic [ref=e82]:
+      - generic [ref=e83]:
+        - generic [ref=e84]: Role Overview
+        - heading "What is Chamet Host?" [level=2] [ref=e85]
+        - paragraph [ref=e86]: A Chamet host is the heart of the platform's live entertainment. Beyond simply going live, you'll connect with viewers through livestreams, private video calls, PK battles, and party rooms. Your agent is there to support you every step of the way.
+        - generic [ref=e87]:
+          - generic [ref=e92]:
+            - heading "Global Broadcast" [level=3] [ref=e93]
+            - paragraph [ref=e94]: Broadcast live to a global audience
+          - generic [ref=e100]:
+            - heading "Daily Platform Tasks" [level=3] [ref=e101]
+            - paragraph [ref=e102]: Complete daily tasks and participate in platform programs
+          - generic [ref=e107]:
+            - heading "Rich Interactions" [level=3] [ref=e108]
+            - paragraph [ref=e109]: Interact with viewers via live chat, video calls, and various Chamet features
+          - generic [ref=e117]:
+            - heading "Dedicated Agency Mentoring" [level=3] [ref=e118]
+            - paragraph [ref=e119]: Receive hands-on mentoring and ongoing support from your agent
+      - 'link "View full image: Chamet Host Role" [ref=e122]':
+        - /url: https://chametagent.com/wp-content/uploads/2026/10/Chamet-Host-Role.png
+        - img "Chamet Host Role" [ref=e123]
+        - generic [aria-hidden]:
+          - generic: Zoom
+    - generic [ref=e125]:
+      - generic [ref=e126]:
+        - generic [ref=e127]: Earning Tools
+        - heading "Tools That Drive Engagement and Boost Agency Value" [level=2] [ref=e128]
+        - paragraph [ref=e129]: Chamet provides six powerful features to captivate audiences, increase your gift earnings, and make you a highly valuable talent for any agency.
+      - generic [ref=e130]:
+        - generic [ref=e131]:
+          - generic [ref=e132]: "01"
+          - 'heading "Feature 1: Live Stream" [level=3] [ref=e133]'
+          - paragraph [ref=e134]: Go live, share your personality, and connect with viewers in real time. Every stream grows your audience and generates gifts, directly contributing to your income.
+        - generic [ref=e135]:
+          - generic [ref=e136]: "02"
+          - 'heading "Feature 2: Video Call" [level=3] [ref=e137]'
+          - paragraph [ref=e138]: One-on-one video sessions for deeper viewer connections. Earn additional coins based on call duration, giving you a steady income stream even outside public broadcasts
+        - generic [ref=e139]:
+          - generic [ref=e140]: "03"
+          - 'heading "Feature 3: Private Chat" [level=3] [ref=e141]'
+          - paragraph [ref=e142]: Keep the conversation going after the stream ends. Direct messages help you retain loyal followers, strengthen relationships, and build a fanbase that keeps coming back
+        - generic [ref=e143]:
+          - generic [ref=e144]: "04"
+          - 'heading "Feature 4: PK Battle" [level=3] [ref=e145]'
+          - paragraph [ref=e146]: Compete head-to-head with other hosts in exciting gifting battles. PKs drive excitement, audience competition, and trigger a lot of gifting, boosting both your earnings and your agency's income.
+        - generic [ref=e147]:
+          - generic [ref=e148]: "05"
+          - 'heading "Feature 5: Party Room" [level=3] [ref=e149]'
+          - paragraph [ref=e150]: Join multi-host group rooms to entertain broader audiences. Collaborative streams create fun, shared experiences that generate more gifts and expose you to viewers from other hosts' audiences.
+        - generic [ref=e151]:
+          - generic [ref=e152]: "06"
+          - 'heading "Feature 6: Feed & Moments" [level=3] [ref=e153]'
+          - paragraph [ref=e154]: Post photos, video clips, and stream highlights to keep your profile active. Even when you're offline, your content stays visible, helping you attract new followers and fans.
+    - generic [ref=e157]:
+      - heading "For more information about Chamet host" [level=2] [ref=e158]
+      - link "Visit Chamet host website" [ref=e159] [cursor=pointer]:
+        - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+    - generic [ref=e166]:
+      - generic [ref=e167]:
+        - generic [ref=e168]: Quality Guidelines
+        - heading "Profile Standards for Chamet Live Hosts" [level=2] [ref=e169]
+        - paragraph [ref=e170]: Follow these simple profile and photo guidelines to create a professional first impression, stay eligible for host rewards, and attract the attention of top agencies.
+      - generic [ref=e171]:
+        - generic [ref=e172]:
+          - heading "Polished Look" [level=3] [ref=e180]
+          - paragraph [ref=e181]: Use proper light or makeup to stay camera-ready and neat.
+        - generic [ref=e182]:
+          - heading "Authentic Photos" [level=3] [ref=e187]
+          - paragraph [ref=e188]: Upload your own pictures so viewers, and agents, can easily recognize you.
+        - generic [ref=e189]:
+          - heading "High Resolution" [level=3] [ref=e195]
+          - paragraph [ref=e196]: Choose bright, clear, high-quality profile images for a crisp on-screen presence.
+        - generic [ref=e197]:
+          - heading "Clean Background" [level=3] [ref=e202]
+          - paragraph [ref=e203]: Ensure your backdrop is tidy and distraction-free to keep focus on you.
+        - generic [ref=e204]:
+          - heading "Professional Attire" [level=3] [ref=e207]
+          - paragraph [ref=e208]: Wear modest, neat clothing in your half-body shots to maintain a trustworthy appearance.
+    - generic [ref=e211]:
+      - generic [ref=e212]:
+        - generic [ref=e213]: FAST PAYOUT
+        - heading "Withdraw Your Host Earnings Fast & Simple" [level=2] [ref=e220]
+      - generic [ref=e221]:
+        - generic [ref=e222]:
+          - generic [ref=e235]: $10 USD
+          - paragraph [ref=e237]: Minimum withdrawal:$10
+        - generic [ref=e238]:
+          - generic [ref=e250]: 10,000 Beans = $1
+          - paragraph [ref=e252]: "Conversion rate: 10,000 Beans= $1 USD"
+        - generic [ref=e253]:
+          - generic [ref=e263]: Global Methods
+          - paragraph [ref=e265]: Supported methods:Worldwide bank transfers,digital wallets, and cryptooptions via MetWallet
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - generic [ref=e269]: Host FAQs
+        - heading "Frequently Asked Questions" [level=2] [ref=e270]
+        - paragraph [ref=e271]: Find answers to the most common questions about joining, starting, and growing as an official Chamet host
+      - generic [ref=e272]:
+        - generic [ref=e273]:
+          - button "How can I register as a Chamet host?" [ref=e274] [cursor=pointer]
+          - paragraph [ref=e280]: Complete the pre-registration (often provided by your agent), download the app, and sign in using the same credentials. It's free and open to beginners.
+        - generic [ref=e281]:
+          - button "What determines my earning potential on the platform?" [ref=e282] [cursor=pointer]
+          - paragraph [ref=e288]: Every interaction counts, livestreams, private calls, gifts, and special features all contribute. There is no earning cap, and your agent is incentivized to help you maximize every opportunity.
+        - generic [ref=e289]:
+          - button "Do new Chamet hosts receive a basic salary?" [ref=e290] [cursor=pointer]
+          - paragraph [ref=e296]: Not right away. New hosts need to meet specific activity and performance criteria first. Your agent will guide you through these requirements and help you unlock salary eligibility faster.
+        - generic [ref=e297]:
+          - button "Can I manage multiple accounts at the same time?" [ref=e298] [cursor=pointer]
+          - paragraph [ref=e304]: No. Chamet strictly allows only one account per individual.
+        - generic [ref=e305]:
+          - button "How and when can I withdraw my funds?" [ref=e306] [cursor=pointer]
+          - paragraph [ref=e312]: You can withdraw once your balance reaches $10 (100,000 Beans). Payments are processed in $10 increments.
+        - generic [ref=e313]:
+          - button "How is my privacy protected while streaming?" [ref=e314] [cursor=pointer]
+          - paragraph [ref=e320]: Chamet enforces strict policies against sharing personal information. Violations may result in suspension or a permanent ban.
+        - generic [ref=e321]:
+          - button "What payment or withdrawal methods are available?" [ref=e322] [cursor=pointer]
+          - paragraph [ref=e328]: For top-ups, Google Pay and Apple Pay are supported. Withdrawals go through MetWallet, which supports USDT, local bank transfers, e-wallets, and Epay in many regions.
+    - generic [ref=e332]:
+      - heading "Start Your Host Journey on Chamet" [level=2] [ref=e333]
+      - paragraph [ref=e334]: Sign-up takes just a few minutes with zero cost, zero commitment, just real earning opportunities. Join through our agency network and get the support, mentorship, and visibility you need to grow faster.
+      - generic [ref=e335]:
+        - link "Join as Host" [ref=e336] [cursor=pointer]:
+          - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+        - link "Visit Chamet Host Website" [ref=e340] [cursor=pointer]:
+          - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+    - dialog [aria-hidden]:
+      - button
+  - contentinfo [ref=e347]:
+    - generic [ref=e348]:
+      - generic [ref=e349]:
+        - generic [ref=e350]:
+          - link "Chamet Agency" [ref=e351] [cursor=pointer]:
+            - /url: /
+            - img "Chamet Agency Logo" [ref=e352]
+            - generic [ref=e353]: ChametAgency
+          - paragraph [ref=e354]: Official partner agency for Chamet livestreaming ecosystem. Empowering creators and agency leaders worldwide with dedicated mentorship, 24/7 support, and transparent weekly earnings.
+        - generic [ref=e355]:
+          - heading "Quick Links" [level=3] [ref=e356]
+          - list [ref=e357]:
+            - listitem [ref=e358]:
+              - link "Home" [ref=e359] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e360]:
+              - link "Host" [ref=e361] [cursor=pointer]:
+                - /url: /host
+            - listitem [ref=e362]:
+              - link "Agent" [ref=e363] [cursor=pointer]:
+                - /url: /agent
+            - listitem [ref=e364]:
+              - link "FAQ" [ref=e365] [cursor=pointer]:
+                - /url: /faq
+        - generic [ref=e366]:
+          - heading "Official Community" [level=3] [ref=e367]
+          - generic [ref=e368]:
+            - link "Follow Chamet on Instagram" [ref=e369] [cursor=pointer]:
+              - /url: https://www.instagram.com/chametindonesia/
+              - generic [ref=e374]: Instagram Chamet
+            - link "Contact Chamet Support on Telegram" [ref=e375] [cursor=pointer]:
+              - /url: https://t.me/chametsupport/
+              - generic [ref=e379]: Telegram Chamet
+      - generic [ref=e380]:
+        - paragraph [ref=e381]: © 2026 pchametagency.id. All rights reserved.
+        - paragraph [ref=e382]: Official Agency Recruitment & Management Portal

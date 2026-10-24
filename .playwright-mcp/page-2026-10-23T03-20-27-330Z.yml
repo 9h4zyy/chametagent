@@ -1,0 +1,140 @@
+- generic [active] [ref=f15e1]:
+  - generic:
+    - banner:
+      - generic [ref=f15e2]:
+        - link "Chamet Agency Home" [ref=f15e3] [cursor=pointer]:
+          - /url: /
+          - img "Chamet Agency Logo" [ref=f15e4]
+          - generic [ref=f15e5]: Chamet
+        - navigation "Main Navigation" [ref=f15e6]:
+          - link "Home" [ref=f15e7] [cursor=pointer]:
+            - /url: /
+          - link "Host" [ref=f15e8] [cursor=pointer]:
+            - /url: /host
+          - link "Agent" [ref=f15e9] [cursor=pointer]:
+            - /url: /agent
+          - link "FAQ" [ref=f15e10] [cursor=pointer]:
+            - /url: /faq
+        - generic [ref=f15e11]:
+          - link "Join Host" [ref=f15e12] [cursor=pointer]:
+            - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+          - link "Start Agency" [ref=f15e14] [cursor=pointer]:
+            - /url: https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007
+  - main [ref=f15e16]:
+    - generic [ref=f15e18]:
+      - link "FAQ" [ref=f15e19] [cursor=pointer]:
+        - /url: /faq
+        - generic [aria-hidden] [ref=f15e20]: ←
+        - text: FAQ
+      - paragraph [ref=f15e21]: SUPPORT & KNOWLEDGE HUB
+      - heading "Chamet Live Rules & Content" [level=1] [ref=f15e22]
+      - paragraph [ref=f15e23]: Safety guidelines, moderation standards, and report procedures
+    - region [ref=f15e24]:
+      - generic [ref=f15e25]:
+        - generic [ref=f15e26]:
+          - generic [ref=f15e27]:
+            - heading "Chamet Live Rules & Content" [level=2] [ref=f15e28]
+            - paragraph [ref=f15e29]: Safety guidelines, moderation standards, and report procedures
+          - generic [ref=f15e30]:
+            - generic [ref=f15e31]:
+              - button "1. Where can I report my problem?" [ref=f15e32] [cursor=pointer]
+              - generic [ref=f15e37]:
+                - paragraph [ref=f15e38]: Use the in-app reporting options for safety or user-related issues ...
+                - link "Read full answer" [ref=f15e39] [cursor=pointer]:
+                  - /url: /faq-answer-20-where-can-i-report-my-problem
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f15e40]: →
+            - generic [ref=f15e41]:
+              - button "2. What are the livestreaming rules on Chamet?" [ref=f15e42] [cursor=pointer]
+              - generic [ref=f15e47]:
+                - paragraph [ref=f15e48]: Livestreams must not include nudity, underwear or sheer clothing, toplessness, ...
+                - link "Read full answer" [ref=f15e49] [cursor=pointer]:
+                  - /url: /faq-answer-21-what-are-the-livestreaming-rules-on-chamet
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f15e50]: →
+            - generic [ref=f15e51]:
+              - button "3. What if I see someone violate the rules?" [ref=f15e52] [cursor=pointer]
+              - generic [ref=f15e57]:
+                - paragraph [ref=f15e58]: Report the user through the in-app reporting tools. In some ...
+                - link "Read full answer" [ref=f15e59] [cursor=pointer]:
+                  - /url: /faq-answer-22-what-if-i-see-someone-violate-the-rules
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f15e60]: →
+            - generic [ref=f15e61]:
+              - button "4. How do I block a user on Chamet?" [ref=f15e62] [cursor=pointer]
+              - generic [ref=f15e67]:
+                - paragraph [ref=f15e68]: Use Chamet’s Block feature on the user you no longer ...
+                - link "Read full answer" [ref=f15e69] [cursor=pointer]:
+                  - /url: /faq-answer-23-how-do-i-block-a-user-on-chamet
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f15e70]: →
+            - generic [ref=f15e71]:
+              - button "5. How do I report a scam on Chamet?" [ref=f15e72] [cursor=pointer]
+              - generic [ref=f15e77]:
+                - paragraph [ref=f15e78]: If the scam happened in a 1v1 chat, long-press the ...
+                - link "Read full answer" [ref=f15e79] [cursor=pointer]:
+                  - /url: /faq-answer-24-how-do-i-report-a-scam-on-chamet
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f15e80]: →
+            - generic [ref=f15e81]:
+              - button "6. How does Chamet’s moderation work during live sessions?" [ref=f15e82] [cursor=pointer]
+              - generic [ref=f15e87]:
+                - paragraph [ref=f15e88]: Chamet uses automated moderation to monitor live video content. If ...
+                - link "Read full answer" [ref=f15e89] [cursor=pointer]:
+                  - /url: /faq-answer-25-how-does-chamets-moderation-work-during-live-sessions
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f15e90]: →
+            - generic [ref=f15e91]:
+              - button "7. What should I do if someone harasses me on Chamet?" [ref=f15e92] [cursor=pointer]
+              - generic [ref=f15e97]:
+                - paragraph [ref=f15e98]: Block the person and use the report tools available in ...
+                - link "Read full answer" [ref=f15e99] [cursor=pointer]:
+                  - /url: /faq-answer-26-what-should-i-do-if-someone-harasses-me-on-chamet
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f15e100]: →
+            - generic [ref=f15e101]:
+              - button "8. What happens if I am penalized during a 1v1 video chat?" [ref=f15e102] [cursor=pointer]
+              - generic [ref=f15e107]:
+                - paragraph [ref=f15e108]: The system may cut a call if it detects prohibited ...
+                - link "Read full answer" [ref=f15e109] [cursor=pointer]:
+                  - /url: /faq-answer-27-what-happens-if-i-am-penalized-during-a-1v1-video-chat
+                  - text: Read full answer
+                  - generic [aria-hidden] [ref=f15e110]: →
+        - link "← All FAQ categories" [ref=f15e111] [cursor=pointer]:
+          - /url: /faq
+  - contentinfo [ref=f15e113]:
+    - generic [ref=f15e114]:
+      - generic [ref=f15e115]:
+        - generic [ref=f15e116]:
+          - link "Chamet Agency" [ref=f15e117] [cursor=pointer]:
+            - /url: /
+            - img "Chamet Agency Logo" [ref=f15e118]
+            - generic [ref=f15e119]: ChametAgency
+          - paragraph [ref=f15e120]: Official partner agency for Chamet livestreaming ecosystem. Empowering creators and agency leaders worldwide with dedicated mentorship, 24/7 support, and transparent weekly earnings.
+        - generic [ref=f15e121]:
+          - heading "Quick Links" [level=3] [ref=f15e122]
+          - list [ref=f15e123]:
+            - listitem [ref=f15e124]:
+              - link "Home" [ref=f15e125] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f15e126]:
+              - link "Host" [ref=f15e127] [cursor=pointer]:
+                - /url: /host
+            - listitem [ref=f15e128]:
+              - link "Agent" [ref=f15e129] [cursor=pointer]:
+                - /url: /agent
+            - listitem [ref=f15e130]:
+              - link "FAQ" [ref=f15e131] [cursor=pointer]:
+                - /url: /faq
+        - generic [ref=f15e132]:
+          - heading "Official Community" [level=3] [ref=f15e133]
+          - generic [ref=f15e134]:
+            - link "Follow Chamet on Instagram" [ref=f15e135] [cursor=pointer]:
+              - /url: https://www.instagram.com/chametindonesia/
+              - generic [ref=f15e140]: Instagram Chamet
+            - link "Contact Chamet Support on Telegram" [ref=f15e141] [cursor=pointer]:
+              - /url: https://t.me/chametsupport/
+              - generic [ref=f15e145]: Telegram Chamet
+      - generic [ref=f15e146]:
+        - paragraph [ref=f15e147]: © 2026 pchametagency.id. All rights reserved.
+        - paragraph [ref=f15e148]: Official Agency Recruitment & Management Portal

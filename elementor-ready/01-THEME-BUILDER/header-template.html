@@ -1,0 +1,101 @@
+<!-- ==========================================================================
+     ELEMENTOR THEME BUILDER: HEADER TEMPLATE
+     Cara pakai: Buat Header Template di Elementor Theme Builder,
+     tambahkan widget 'HTML', lalu paste seluruh kode di bawah ini.
+     ========================================================================== -->
+<header class="site-header-wrapper" id="site-header">
+  <div class="site-navbar" id="site-navbar">
+    <!-- Brand Logo -->
+    <a href="/" class="site-logo" aria-label="Chamet Agency Home">
+      <img src="https://chametagent.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-19-at-11.42.05.jpeg"
+        alt="Chamet Agency Logo" class="site-logo-img" width="38" height="38">
+      <span class="site-logo-highlight">Chamet</span></span>
+    </a>
+
+    <!-- Desktop Navigation Menu -->
+    <nav class="nav-menu" aria-label="Main Navigation">
+      <a href="/" class="nav-link">Home</a>
+      <a href="/host" class="nav-link">Host</a>
+      <a href="/agent" class="nav-link">Agent</a>
+      <a href="/faq" class="nav-link">FAQ</a>
+    </nav>
+
+    <!-- Desktop Header CTAs (Capsule Dual CTAs) -->
+    <div class="nav-actions">
+      <a href="https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007" target="_blank"
+        rel="noopener noreferrer" class="btn btn--outline btn--sm">
+        <span>Join Host</span>
+      </a>
+      <a href="https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007" target="_blank"
+        rel="noopener noreferrer" class="btn btn--primary btn--sm">
+        <span>Start Agency</span>
+      </a>
+    </div>
+
+    <!-- Mobile Hamburger Button -->
+    <button type="button" class="hamburger-btn" id="hamburger-toggle" aria-label="Toggle navigation menu"
+      aria-expanded="false" aria-controls="mobile-nav">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
+  </div>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-drawer" id="mobile-nav" aria-hidden="true">
+    <a href="/" class="mobile-nav-link">Home</a>
+    <a href="/host" class="mobile-nav-link">Host</a>
+    <a href="/agent" class="mobile-nav-link">Agent</a>
+    <a href="/faq" class="mobile-nav-link">FAQ</a>
+    <div class="mobile-nav-actions">
+      <a href="https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007" target="_blank"
+        rel="noopener noreferrer" class="btn btn--secondary btn--sm">
+        <span>Join Host</span>
+      </a>
+      <a href="https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=2007" target="_blank"
+        rel="noopener noreferrer" class="btn btn--primary btn--sm">
+        <span>Start Agency</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<script>
+  (function () {
+    const navbar = document.getElementById('site-navbar');
+    const hamburger = document.getElementById('hamburger-toggle');
+    const mobileNav = document.getElementById('mobile-nav');
+
+    // 1. Mobile Drawer Toggle
+    if (hamburger && mobileNav) {
+      hamburger.addEventListener('click', function () {
+        const isOpen = mobileNav.classList.toggle('open');
+        hamburger.classList.toggle('active', isOpen);
+        hamburger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        mobileNav.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
+      });
+
+      // Close mobile drawer when clicking a link
+      const mobileLinks = mobileNav.querySelectorAll('.mobile-nav-link');
+      mobileLinks.forEach(function (link) {
+        link.addEventListener('click', function () {
+          mobileNav.classList.remove('open');
+          hamburger.classList.remove('active');
+          hamburger.setAttribute('aria-expanded', 'false');
+          mobileNav.setAttribute('aria-hidden', 'true');
+        });
+      });
+    }
+
+    // 2. Add background effect on window scroll
+    window.addEventListener('scroll', function () {
+      if (navbar) {
+        if (window.scrollY > 30) {
+          navbar.classList.add('scrolled');
+        } else {
+          navbar.classList.remove('scrolled');
+        }
+      }
+    });
+  })();
+</script>
